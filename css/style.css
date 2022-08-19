@@ -1,0 +1,5772 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Poppins-Regular;
+  font-size: 17px;
+  color: #4a4a4a;
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+
+.Poppins-Regular {
+  font-family: Poppins-Regular;
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
+.Poppins-SemiBold {
+  font-family: Poppins-SemiBold;
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/Poppins-Bold.ttf');
+}
+
+.Poppins-Bold {
+  font-family: Poppins-Bold;
+}
+
+@font-face {
+  font-family: Poppins-ThinItalic;
+  src: url('../fonts/Poppins-ThinItalic.ttf');
+}
+
+.Poppins-ThinItalic {
+  font-family: Poppins-ThinItalic;
+}
+
+.footer-top {
+  padding: 0 200px;
+}
+
+.notFoundCol h4 {
+  font-size: 40px;
+  margin-top: 200px;
+  margin-bottom: 250px;
+}
+
+.instRecBoxSec .card, .vegRecBoxSec .card, .nonvegRecBoxSec .card, .beverageRecBoxSec .card, .srchtRecBoxSec .card {
+  height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.instRecBoxSec .card .card-image, .vegRecBoxSec .card .card-image, .nonvegRecBoxSec .card .card-image, .beverageRecBoxSec .card .card-image, .srchtRecBoxSec .card .card-image {
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+}
+
+.imgProduct img {
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  top: 160px;
+  left: 200px;
+}
+
+header nav {
+  padding: 15px 80px 15px 70px;
+  background-color: white;
+  height: 65px;
+  z-index: 10;
+}
+
+header nav ul li {
+  padding: 0 3px;
+}
+
+.navbarFixed {
+  position: fixed;
+}
+
+header nav ul a {
+  border-radius: 30px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  color: #4a4a4a !important;
+}
+
+header nav ul a:hover {
+  background-color: rgb(100 35 2);
+  border-radius: 30px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  color: white !important;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  background-color: #381301 !important;
+  display: inherit !important;
+  padding: 0 200px !important;
+  height: 0px;
+  color: #b2b2b2 !important;
+}
+
+.page-footer {
+  background-color: #642302;
+}
+
+.bg-orange {
+  background: #e16120;
+  color: white;
+}
+
+.bg-green {
+  background: #3a9691;
+  color: white;
+}
+
+.text-black {
+  color: #4a4a4a;
+}
+
+.text-grey {
+  color: #707070 !important;
+}
+
+.text-orange {
+  color: #e16120;
+}
+
+.text-lightbrown {
+  color: #976145;
+}
+
+.text-green {
+  color: #3a9691;
+}
+
+.rounded-30 {
+  border-radius: 30px;
+}
+
+.footerFrsCol p {
+  width: 75%;
+  font-size: 16px;
+  color: #b2b2b2
+}
+
+.footerFrsCol img {
+  width: 300px;
+  margin-top: 20px;
+}
+
+header nav img {
+  width: 250px;
+  margin-top: -3px;
+}
+
+.ourFood {
+  background: orange;
+  color: white;
+  margin-top: -49px;
+  position: relative;
+  opacity: 0.9;
+  padding: 8px 0;
+  font-family: Poppins-SemiBold;
+  border-radius: 0 0 10px 10px;
+}
+
+.foodTabSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.vegRecContSec .divOpa {
+  margin-top: -390px;
+  margin-bottom: 120px;
+  color: white;
+  background: #b3a9a985;
+  width: 70%;
+  margin-left: 15%;
+  padding: 1px 80px 30px 80px;
+  border-radius: 0;
+}
+
+.vegRecContSec .divOpa p {
+  color: white;
+  margin-top: -10px;
+}
+
+.vegRecContSec h2 {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.nonvegRecContSec .divOpa {
+  margin-top: -390px;
+  margin-bottom: 120px;
+  color: white;
+  background: #b3a9a985;
+  width: 70%;
+  margin-left: 15%;
+  padding: 1px 80px 30px 80px;
+  border-radius: 0;
+}
+
+.nonvegRecContSec .divOpa p {
+  color: white;
+  margin-top: -10px;
+}
+
+.nonvegRecContSec h2 {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.beverageRecContSec .divOpa {
+  margin-top: -390px;
+  margin-bottom: 120px;
+  color: white;
+  background: #b3a9a985;
+  width: 70%;
+  margin-left: 15%;
+  padding: 1px 80px 30px 80px;
+  border-radius: 0;
+}
+
+.beverageRecContSec .divOpa p {
+  color: white;
+  margin-top: -10px;
+}
+
+.beverageRecContSec h2 {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.instantRecContSec .divOpa {
+  margin-top: -390px;
+  margin-bottom: 120px;
+  color: white;
+  background: #b3a9a985;
+  width: 70%;
+  margin-left: 15%;
+  padding: 1px 80px 30px 80px;
+  border-radius: 0;
+}
+
+.instantRecContSec .divOpa p {
+  color: white;
+  margin-top: -10px;
+}
+
+.instantRecContSec h2 {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.chefSlidSec {
+  background-image: url('../images/testimonialBg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.chefSlidSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.foodTabSec {
+  padding-bottom: 30px;
+  background-image: url('../images/ingreVector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.instantCarousel img {
+  border: 5px solid #fde7dc;
+}
+
+.instantCarousel h6 {
+  font-size: 14px;
+}
+
+.instantCarousel {
+  margin-top: 40px;
+}
+
+.instantCarousel button {
+  height: 40px;
+  width: 40px;
+  background: #64230242 !important;
+  border-radius: 50%;
+}
+
+.instantCarousel .owl-dots {
+  display: none;
+}
+
+.instantCarousel .owl-prev, .instantCarousel .owl-next {
+  position: absolute;
+  top: 30%;
+}
+
+.instantCarousel .owl-prev {
+  left: -80px;
+}
+
+.instantCarousel .owl-next {
+  right: -80px;
+}
+
+.instantCarousel .owl-prev span, .instantCarousel .owl-next span {
+  position: absolute;
+  font-size: 40px;
+  margin-top: -32px;
+  margin-left: -6px;
+  color: white;
+}
+
+.vegCarousel img {
+  border: 5px solid #fde7dc;
+}
+
+.vegCarousel h6 {
+  font-size: 14px;
+}
+
+.vegCarousel {
+  margin-top: 40px;
+}
+
+.vegCarousel button {
+  height: 40px;
+  width: 40px;
+  background: #64230242 !important;
+  border-radius: 50%;
+}
+
+.vegCarousel .owl-dots {
+  display: none;
+}
+
+.vegCarousel .owl-prev, .vegCarousel .owl-next {
+  position: absolute;
+  top: 30%;
+}
+
+.vegCarousel .owl-prev {
+  left: -80px;
+}
+
+.vegCarousel .owl-next {
+  right: -80px;
+}
+
+.vegCarousel .owl-prev span, .vegCarousel .owl-next span {
+  position: absolute;
+  font-size: 40px;
+  margin-top: -32px;
+  margin-left: -6px;
+  color: white;
+}
+
+.nonvegCarousel img {
+  border: 5px solid #fde7dc;
+}
+
+.nonvegCarousel h6 {
+  font-size: 14px;
+}
+
+.nonvegCarousel {
+  margin-top: 40px;
+}
+
+.nonvegCarousel button {
+  height: 40px;
+  width: 40px;
+  background: #64230242 !important;
+  border-radius: 50%;
+}
+
+.nonvegCarousel .owl-dots {
+  display: none;
+}
+
+.nonvegCarousel .owl-prev, .nonvegCarousel .owl-next {
+  position: absolute;
+  top: 30%;
+}
+
+.nonvegCarousel .owl-prev {
+  left: -80px;
+}
+
+.nonvegCarousel .owl-next {
+  right: -80px;
+}
+
+.nonvegCarousel .owl-prev span, .nonvegCarousel .owl-next span {
+  position: absolute;
+  font-size: 40px;
+  margin-top: -32px;
+  margin-left: -6px;
+  color: white;
+}
+
+.beverageCarousel img {
+  border: 5px solid #fde7dc;
+}
+
+.beverageCarousel h6 {
+  font-size: 14px;
+}
+
+.beverageCarousel {
+  margin-top: 40px;
+}
+
+.beverageCarousel button {
+  height: 40px;
+  width: 40px;
+  background: #64230242 !important;
+  border-radius: 50%;
+}
+
+.beverageCarousel .owl-dots {
+  display: none;
+}
+
+.beverageCarousel .owl-prev, .beverageCarousel .owl-next {
+  position: absolute;
+  top: 30%;
+}
+
+.beverageCarousel .owl-prev {
+  left: -80px;
+}
+
+.beverageCarousel .owl-next {
+  right: -80px;
+}
+
+.beverageCarousel .owl-prev span, .beverageCarousel .owl-next span {
+  position: absolute;
+  font-size: 40px;
+  margin-top: -32px;
+  margin-left: -6px;
+  color: white;
+}
+
+.fasFoodSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.fasFoodSec {
+  background: #fde7dc38;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.fasFoodSec .fesName {
+  font-size: 12px;
+}
+
+.fasFoodSec .fooName {
+  font-size: 22px;
+  margin-bottom: 10px !important;
+}
+
+.fasFoodSec .preCooTot {
+  font-size: 10px;
+}
+
+.fasFoodSec .cookTime {
+  font-size: 12px;
+}
+
+.fasFoodSec .card .card-content {
+  padding: 15px 10px 1px 10px;
+  border-radius: 0 0 2px 2px;
+}
+
+.chefSlidSec img {
+  border-radius: 50%;
+  border: 5px solid #fffaf7;
+  width: 250px !important;
+  height: 250px;
+}
+
+.testCarousel h6 {
+  font-size: 25px;
+}
+
+.testCarousel p {
+  font-size: 13px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.testCarousel .carousel-item {
+  width: 400px;
+  margin-top: -100px;
+  padding: 0;
+}
+
+.testCarousel .indicators .indicator-item {
+  background-color: #707070;
+}
+
+.testCarousel .indicators .indicator-item.active {
+  background-color: #642302;
+}
+
+.moveTop {
+  height: 40px;
+  width: 40px;
+  background: #e16120;
+  border-radius: 5px;
+  border: 1px solid #e16120;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  bottom: 30px;
+  right: 30px;
+  position: fixed;
+}
+
+#moveTop {
+  visibility: hidden;
+}
+
+.ulQuick {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.ulQuick li a {
+  color: #b2b2b2;
+}
+
+.ulContact {
+  font-size: 16px;
+  line-height: 40px;
+  color: #b2b2b2;
+}
+
+.ulContact li a {
+  color: #b2b2b2;
+}
+
+.footer-top h5 {
+  color: #d3d1d1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.searchForm input {
+  border: 1px solid #4a4a4a;
+  height: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  margin-top: 0;
+  width: 250px;
+  padding-left: 25px;
+  border-radius: 25px;
+}
+
+.searchForm .fa-search {
+  color: #7070708c;
+  font-size: 18px;
+  margin-top: -13px;
+}
+
+.searchForm {
+  margin-top: -10px;
+  margin-left: 30px;
+}
+
+.searchMobile input {
+  border: 1px solid #dddcdc;
+  height: 40px;
+  font-size: 12px;
+  line-height: 40px;
+  margin-top: 50px;
+  padding-left: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: 240px;
+}
+
+.searchMobile .fa-search {
+  color: #7070708c;
+  font-size: 13px;
+  margin-top: 0;
+}
+
+.searchMobile {
+  margin-top: -10px;
+  margin-left: 30px;
+}
+
+.btnSearch, .btnSearch:hover, .btnSearch:focus, .btnSearch:visited, .btnSearch:active {
+  background: transparent;
+  margin-left: -50px;
+  box-shadow: none !important;
+}
+
+.btnMblSearch, .btnMblSearch:hover, .btnMblSearch:focus, .btnMblSearch:visited, .btnMblSearch:active {
+  background: transparent;
+  margin-left: -50px;
+  box-shadow: none !important;
+}
+
+.btnBigSearch, .btnBigSearch:hover, .btnBigSearch:focus, .btnBigSearch:visited, .btnBigSearch:active {
+  background: transparent;
+  margin-left: -70px;
+  box-shadow: none !important;
+  position: relative;
+}
+
+.bigSearch input {
+  border: 1px solid white;
+  height: 60px;
+  font-size: 20px;
+  line-height: 70px;
+  margin-top: 0;
+  width: 600px;
+  padding-left: 25px;
+  border-radius: 40px;
+  opacity: 0.8;
+}
+
+.bigSearch .fa-search {
+  color: #7070708c;
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.findRecH1 {
+  font-size: 60px;
+  margin-top: 150px;
+  color: #313131;
+}
+
+.bigSearch {
+  margin-top: -10px;
+  margin-left: 30px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.aboutSec ul li {
+  margin-bottom: 20px;
+}
+
+.aboutSec ul li::before {
+  content: "\00BB";
+  margin-left: -20px;
+  padding-right: 10px;
+  color: #e16120;
+  font-size: 25px;
+}
+
+.aboutSec ul {
+  padding-left: 30px;
+}
+
+.aboutSec {
+  padding-bottom: 30px;
+  background-image: url('../images/ingreVector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.aboutBnrSec .row {
+  margin-bottom: 0;
+}
+
+.bnrSec {
+  background-image: url('../images/yfbBanner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.qnaBnrSec .row {
+  margin-bottom: 0;
+}
+
+.privacyBnrSec .row {
+  margin-bottom: 0;
+}
+
+.termsBnrSec .row {
+  margin-bottom: 0;
+}
+
+.qnaSec {
+  background-image: url('../images/ingreVector.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.qnaSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.privacySec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.privacySec h3 {
+  font-size: 25px;
+}
+
+.privacySec ol {
+  margin-left: -20px;
+}
+
+.privacySec {
+  background-image: linear-gradient(#f4efef4f, white);
+}
+
+.contactSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.qnaSec .collapsible-body {
+  padding: 0 2rem;
+}
+
+header nav ul.hide-on-med-and-down {
+  margin-top: -4px;
+}
+
+header nav ul li:last-child a {
+  background-color: rgb(100 35 2);
+  border-radius: 30px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 20px;
+}
+
+header nav ul li:last-child a:hover {
+  background: white;
+  border-radius: 30px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 20px;
+  color: rgb(100 35 2);
+}
+
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.form-control {
+  height: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #80808057;
+}
+
+.btnSubmit, .btnSubmit:hover, .btnSubmit:focus {
+  background: #642302;
+  height: 50px;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 0 40px;
+  margin-bottom: 15px;
+}
+
+.contactRightCol {
+  padding: 100px;
+}
+
+.contactRightCol p {
+  font-size: 15px;
+  line-height: 30px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.contactRightCol h5 {
+  font-size: 20px;
+}
+
+.contactRightCol img {
+  border-radius: 50%;
+  width: 190px;
+  margin-top: 50px;
+}
+
+.contactRightCol h4 {
+  font-size: 35px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
+
+.contactSec {
+  background: #f3efec;
+  padding-bottom: 40px;
+}
+
+.contactSec iframe {
+  border: 5px solid white !important;
+  height: 400px;
+  border-radius: 5px;
+  margin-top: 55px;
+}
+
+.frsRowCon {
+  margin-bottom: 0;
+}
+
+.abtChefSec {
+  background: #d3c7bd52;
+  margin-top: -7px;
+}
+
+.abtChefSec h5 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.abtChefSec h2 {
+  font-size: 35px;
+  margin-top: 100px;
+}
+
+.abtChefSec img {
+  margin-bottom: -8px;
+}
+
+.abtChefSec h5 span {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.instRecBoxSec {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-image: url('../images/ingreVector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.instRecBoxSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.instRecBoxSec .fesName {
+  font-size: 12px;
+}
+
+.instRecBoxSec .fooName {
+  font-size: 22px;
+  margin-bottom: 10px !important;
+}
+
+.instRecBoxSec .card .card-content {
+  padding: 15px 10px 1px 10px;
+  border-radius: 0 0 2px 2px;
+}
+
+.instRecBoxSec .recipeDesc {
+  font-size: 13px;
+}
+
+.instRecBoxSec .chefName {
+  font-size: 13px;
+}
+
+.instRecBoxSec .chefName span {
+  color: #4a4a4a;
+}
+
+.instRecBoxSec .chefNameRow {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.instRecBoxSec .time {
+  font-size: 13px;
+}
+
+.srchtRecBoxSec {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-image: linear-gradient(#f4efef4f, white);
+}
+
+.srchtRecBoxSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.srchtRecBoxSec .fesName {
+  font-size: 12px;
+}
+
+.srchtRecBoxSec .fooName {
+  font-size: 22px;
+  margin-bottom: 10px !important;
+}
+
+.srchtRecBoxSec .card .card-content {
+  padding: 15px 10px 1px 10px;
+  border-radius: 0 0 2px 2px;
+}
+
+.srchtRecBoxSec .recipeDesc {
+  font-size: 13px;
+}
+
+.srchtRecBoxSec .chefName {
+  font-size: 13px;
+}
+
+.srchtRecBoxSec .chefName span {
+  color: #4a4a4a;
+}
+
+.srchtRecBoxSec .chefNameRow {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.srchtRecBoxSec .time {
+  font-size: 13px;
+}
+
+.vegRecBoxSec {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-image: url('../images/ingreVector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vegRecBoxSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.vegRecBoxSec .fesName {
+  font-size: 12px;
+}
+
+.vegRecBoxSec .fooName {
+  font-size: 22px;
+  margin-bottom: 10px !important;
+}
+
+.vegRecBoxSec .card .card-content {
+  padding: 15px 10px 1px 10px;
+  border-radius: 0 0 2px 2px;
+}
+
+.vegRecBoxSec .recipeDesc {
+  font-size: 13px;
+}
+
+.vegRecBoxSec .chefName {
+  font-size: 13px;
+}
+
+.vegRecBoxSec .chefName span {
+  color: #4a4a4a;
+}
+
+.vegRecBoxSec .chefNameRow {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.vegRecBoxSec .time {
+  font-size: 13px;
+}
+
+.nonvegRecBoxSec {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-image: url('../images/ingreVector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nonvegRecBoxSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.nonvegRecBoxSec .fesName {
+  font-size: 12px;
+}
+
+.nonvegRecBoxSec .fooName {
+  font-size: 22px;
+  margin-bottom: 10px !important;
+}
+
+.nonvegRecBoxSec .card .card-content {
+  padding: 15px 10px 1px 10px;
+  border-radius: 0 0 2px 2px;
+}
+
+.nonvegRecBoxSec .recipeDesc {
+  font-size: 13px;
+}
+
+.nonvegRecBoxSec .chefName {
+  font-size: 13px;
+}
+
+.nonvegRecBoxSec .chefName span {
+  color: #4a4a4a;
+}
+
+.nonvegRecBoxSec .chefNameRow {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.nonvegRecBoxSec .time {
+  font-size: 13px;
+}
+
+.beverageRecBoxSec {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-image: url('../images/ingreVector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.beverageRecBoxSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.beverageRecBoxSec .fesName {
+  font-size: 12px;
+}
+
+.beverageRecBoxSec .fooName {
+  font-size: 22px;
+  margin-bottom: 10px !important;
+}
+
+.beverageRecBoxSec .card .card-content {
+  padding: 15px 10px 1px 10px;
+  border-radius: 0 0 2px 2px;
+}
+
+.beverageRecBoxSec .recipeDesc {
+  font-size: 13px;
+}
+
+.beverageRecBoxSec .chefName {
+  font-size: 13px;
+}
+
+.beverageRecBoxSec .chefName span {
+  color: #4a4a4a;
+}
+
+.beverageRecBoxSec .chefNameRow {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.beverageRecBoxSec .time {
+  font-size: 13px;
+}
+
+.dropdown-content {
+  overflow: visible !important;
+}
+
+header nav ul li ul {
+  width: auto !important;
+}
+
+header nav ul li ul a {
+  background-color: rgb(255 255 255);
+  border-radius: 0;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 15px;
+  color: #381301 !important;
+}
+
+header nav ul li ul a:hover {
+  background-color: rgb(100 35 2);
+  border-radius: 0;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 15px;
+  color: #ffffff !important;
+}
+
+.termsSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.termsSec h3 {
+  font-size: 25px;
+}
+
+.termsSec ol {
+  margin-left: -20px;
+}
+
+.termsSec {
+  background-image: linear-gradient(#f4efef4f, white);
+}
+
+.ingreTopSec {
+  background: #d3c7bd52;
+  padding: 100px 0;
+}
+
+.ingreTopSec h2 {
+  font-size: 45px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.ingreTopSec .row {
+  margin-bottom: 0;
+}
+
+.ingreTopSec .category {
+  font-size: 12px;
+}
+
+.ingreTopSec .descColumn {
+  padding-left: 50px;
+}
+
+.ingreBotSec {
+  background-image: url('../images/ingreVector.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ingreBotSec ul li {
+  margin-bottom: 10px;
+}
+
+.ingreBotSec ul li::before {
+  content: "\00BB";
+  margin-left: -20px;
+  padding-right: 10px;
+  color: #e16120;
+  font-size: 25px;
+}
+
+.ingreBotSec ul {
+  padding-left: 30px;
+}
+
+.ingreBotSec h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.ingreBotSec .ingredient {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.ingreBotSec .method {
+  font-size: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.ingBannerSec .divOpa {
+  color: white;
+  background: #b3a9a985;
+  width: 600px;
+  padding: 30px 50px 30px 50px;
+  border-radius: 0;
+  position: absolute;
+  top: 150px;
+  right: 200px;
+}
+
+.ingBannerSec .divOpa .desc {
+  color: white;
+  margin-top: -10px;
+}
+
+.ingBannerSec h2 {
+  font-size: 42px;
+  margin-top: -15px;
+  margin-bottom: 0;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.ingBannerSec .category {
+  font-size: 20px;
+}
+
+.ingreBnrToprSec {
+  position: relative;
+}
+
+.ingreBnrToprSec .row {
+  margin-bottom: 0;
+}
+
+.ingBannerSec .divOpa .row {
+  margin-left: -10px;
+}
+
+.bannerCarousel {
+  height: 700px !important;
+}
+
+.searchSec .count {
+  margin-top: 55px;
+}
+
+.searchSec {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.searchSec h2 {
+  font-size: 45px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.searchSec .fesName {
+  font-size: 12px;
+}
+
+.searchSec .fooName {
+  font-size: 22px;
+  margin-bottom: 10px !important;
+}
+
+.searchSec .card .card-content {
+  padding: 15px 10px 1px 10px;
+  border-radius: 0 0 2px 2px;
+}
+
+.searchSec .recipeDesc {
+  font-size: 13px;
+}
+
+.searchSec .chefName {
+  font-size: 13px;
+}
+
+.searchSec .chefName span {
+  color: #4a4a4a;
+}
+
+.searchSec .chefNameRow {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.searchSec .time {
+  font-size: 13px;
+}
+
+.socialIcon {
+  list-style-type: none;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.socialIcon a {
+  display: block;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+}
+
+.socialIcon .facebook {
+  background: #4267B2;
+}
+
+.socialIcon .twitter {
+  background: #00acee ;
+}
+
+.socialIcon .pinterest {
+  background: #E60023;
+}
+
+.socialIcon .instagram {
+  background: #8a3ab9;
+}
+
+.socialIcon .youtube {
+  background: #FF0000;
+}
+
+.socialIcon .fab {
+  font-size: 22px;
+  margin: 15px 15px;
+}
+
+.srchtRecBoxSec .card img:hover {
+  transform: scale(1.3);
+}
+
+.srchtRecBoxSec .card img {
+  transition: 2.8s ease;
+  backface-visibility: hidden;
+}
+
+.srchtRecBoxSec .card img:hover {
+  transform: scale(1.3);
+}
+
+.srchtRecBoxSec .card img {
+  transition: 2.8s ease;
+  backface-visibility: hidden;
+}
+
+.instRecBoxSec .card img:hover {
+  transform: scale(1.3);
+}
+
+.instRecBoxSec .card img {
+  transition: 2.8s ease;
+  backface-visibility: hidden;
+}
+
+.vegRecBoxSec .card img:hover {
+  transform: scale(1.3);
+}
+
+.vegRecBoxSec .card img {
+  transition: 2.8s ease;
+  backface-visibility: hidden;
+}
+
+.nonvegRecBoxSec .card img:hover {
+  transform: scale(1.3);
+}
+
+.nonvegRecBoxSec .card img {
+  transition: 2.8s ease;
+  backface-visibility: hidden;
+}
+
+.beverageRecBoxSec .card img:hover {
+  transform: scale(1.3);
+}
+
+.beverageRecBoxSec .card img {
+  transition: 2.8s ease;
+  backface-visibility: hidden;
+}
+
+.foodTabSec .ouRecDiv {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px !important;
+}
+
+.foodTabSec .ouRecDiv img {
+  transition: 2.8s ease;
+  backface-visibility: hidden;
+}
+
+.foodTabSec .ouRecDiv img:hover {
+  transform: scale(1.3);
+}
+
+.fasFoodSec .hoverable .card-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.fasFoodSec .hoverable img {
+  transition: 2.8s ease;
+  backface-visibility: hidden;
+}
+
+.fasFoodSec .hoverable img:hover {
+  transform: scale(1.3);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.formMessage {
+  height: 200px;
+}
+
+.fasFoodSec .card {
+  height: 430px;
+  overflow: hidden;
+}
+
+@media (max-width: 300px) {
+  .nonvegRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .instRecBoxSec .card, .vegRecBoxSec .card, .nonvegRecBoxSec .card, .beverageRecBoxSec .card , .srchtRecBoxSec .card {
+      height: 440px;
+  }
+
+  .bigSearch {
+      margin-left: 0;
+  }
+
+  .circleRec {
+      margin-bottom: 0;
+  }
+
+  .contactRightCol h5 {
+      font-size: 14px;
+  }
+
+  .nonvegRecContSec .divOpa {
+      margin-top: -180px;
+      margin-bottom: 10px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1px 10px 10px 10px;
+  }
+
+  .contactRightCol img {
+      width: 100px;
+      margin-top: -20px;
+      border: 2px solid whitesmoke;
+  }
+
+  .contactRightCol p {
+      font-size: 12px;
+      line-height: 21px;
+      width: 80%;
+      margin-left: 10%;
+      margin-bottom: 10px;
+  }
+
+  .imgNon img {
+      height: 170px;
+  }
+
+  .ingBannerSec .divOpa .desc {
+      margin-top: -20px;
+      font-size: 8px;
+  }
+
+  .ingreBotSec ul li {
+      margin-bottom: 0;
+  }
+
+  .ingBannerSec .category {
+      font-size: 10px;
+  }
+
+  .ingBannerSec .divOpa {
+      width: 200px;
+      padding: 0px 10px 10px 10px;
+      top: 50px;
+      right: 5px;
+  }
+
+  .ingBannerSec h2 {
+      font-size: 16px;
+      margin-top: -10px;
+      margin-bottom: -10px;
+  }
+
+  .ingreBotSec ul {
+      padding-left: 20px;
+      line-height: 20px
+  }
+
+  .ingreBotSec .ingredient {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 0;
+  }
+
+  .ingreBotSec .method {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 0;
+      text-align: left;
+  }
+
+  .ingreBnrToprSec img {
+      height: 220px;
+      overflow: hidden;
+  }
+
+  .srchtRecBoxSec .card .card-image {
+      background-image: url('../images/glaserBg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+
+  .instRecBoxSec .card .card-image {
+      background-image: url('../images/glaserBg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+
+  .vegRecBoxSec .card .card-image {
+      background-image: url('../images/glaserBg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+
+  .beverageRecBoxSec .card .card-image {
+      background-image: url('../images/glaserBg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+
+  .nonvegRecBoxSec .card .card-image {
+      background-image: url('../images/glaserBg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+
+  .vegRecBoxSec .fooName {
+      font-size: 16px;
+      margin-bottom: 5px !important;
+  }
+
+  .bigSearch input {
+      height: 35px;
+      font-size: 14px;
+      line-height: 35px;
+      width: 220px;
+  }
+
+  .bigSearch .fa-search {
+      font-size: 18px;
+  }
+
+  .imgVegR img {
+      height: 170px;
+  }
+
+  .bnrSec {
+      height: 150px;
+  }
+
+  .vegRecContSec h2 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
+
+  .instantRecContSec h2 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
+
+  .beverageRecContSec h2 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
+
+  .nonvegRecContSec h2 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
+
+  .beverageRecContSec .divOpa {
+      margin-top: -180px;
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1px 20px 10px 20px;
+  }
+
+  .instantRecContSec .divOpa {
+      margin-top: -180px;
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1px 20px 10px 20px;
+  }
+
+  .vegRecContSec .divOpa {
+      margin-top: -180px;
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1px 20px 10px 20px;
+  }
+
+  .srchtRecBoxSec h2 {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+
+  .instRecBoxSec h2 {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+
+  .nonvegRecBoxSec h2 {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+
+  .beverageRecBoxSec h2 {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+
+  .vegRecBoxSec h2 {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+
+  .formMessage {
+      height: 100px !important;
+  }
+
+  .vegRecBoxSec .card .card-image img {
+      height: 250px;
+      width: 250px;
+      margin: auto;
+  }
+
+  .beverageRecBoxSec .card .card-image img {
+      height: 250px;
+      width: 250px;
+      margin: auto;
+  }
+
+  .instRecBoxSec .card .card-image img {
+      height: 250px;
+      width: 250px;
+      margin: auto;
+  }
+
+  .srchtRecBoxSec .card .card-image img {
+      height: 250px;
+      width: 250px;
+      margin: auto;
+  }
+
+  .nonvegRecBoxSec .card .card-image img {
+      height: 250px;
+      width: 250px;
+      margin: auto;
+  }
+
+  .instRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .srchtRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .beverageRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .instRecBoxSec .fesName {
+      font-size: 10px;
+  }
+
+  .srchtRecBoxSec .fesName {
+      font-size: 10px;
+  }
+
+  .imgNonv img {
+      height: 170px;
+  }
+
+  .imgBever img {
+      height: 170px;
+  }
+
+  .instRecBoxSec .chefName {
+      font-size: 12px;
+  }
+
+  .instRecBoxSec .time {
+      font-size: 12px;
+  }
+
+  .instRecBoxSec .recipeDesc {
+      font-size: 12px;
+  }
+
+  .srchtRecBoxSec .chefName {
+      font-size: 12px;
+  }
+
+  .srchtRecBoxSec .time {
+      font-size: 12px;
+  }
+
+  .srchtRecBoxSec .recipeDesc {
+      font-size: 12px;
+  }
+
+  .btnSubmit, .btnSubmit:hover, .btnSubmit:focus {
+      height: 35px;
+      font-size: 12px;
+      padding: 0 30px;
+  }
+
+  .form-control {
+      height: 20px;
+  }
+
+  .contactSec iframe {
+      border: 3px solid white !important;
+      height: 150px;
+      margin-top: 15px;
+  }
+
+  .termsSec h2 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: -10px;
+  }
+
+  .termsSec h3 {
+      font-size: 14px;
+      margin-bottom: 0px;
+  }
+
+  .privacySec h2 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: -10px;
+  }
+
+  .privacySec h3 {
+      font-size: 14px;
+      margin-bottom: 0px;
+  }
+
+  .frsRowCon {
+      margin-bottom: 15px;
+  }
+
+  .contactRightCol h4 {
+      font-size: 14px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+
+  .contactSec {
+      padding-bottom: 1px;
+  }
+
+  .qnaSec h2 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      margin-left: 25px;
+  }
+
+  .frsRowCon form .row {
+      margin-bottom: 10px;
+  }
+
+  .form-control {
+      padding: 16px;
+      border-radius: 3px;
+  }
+
+  .contactSec h2 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  html, body {
+      font-size: 12px;
+  }
+
+  .abtChefSec img {
+      border-radius: 10px;
+      height: 110px;
+      width: 110px;
+      border: 2px solid #4f48450d;
+      margin-top: 10px;
+  }
+
+  .findRecH1 {
+      font-size: 20px;
+      margin-top: 40px;
+  }
+
+  .btnBigSearch, .btnBigSearch:hover, .btnBigSearch:focus, .btnBigSearch:visited, .btnBigSearch:active {
+      margin-left: -50px;
+  }
+
+  .abtChefSec {
+      margin-top: -6px;
+      padding-bottom: 1px;
+  }
+
+  .aboutSec {
+      padding-bottom: 0px;
+      padding-top: 20px;
+  }
+
+  .aboutSec ul li {
+      margin-bottom: 0;
+  }
+
+  .aboutSec ul {
+      padding-left: 20px;
+      margin-top: 0;
+  }
+
+  .abtChefSec h2 {
+      font-size: 14px;
+      margin-top: 20px;
+      margin-bottom: 5px;
+  }
+
+  .abtChefSec h5 {
+      font-size: 12px;
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+
+  .abtChefSec h5 span {
+      font-size: 18px;
+      margin-left: 5px;
+  }
+
+  nav .sidenav-trigger {
+      height: 45px;
+  }
+
+  header nav {
+      padding: 0px 0px 0px 0px;
+      height: 45px;
+  }
+
+  header nav img {
+      width: 120px;
+      margin-top: 0;
+  }
+
+  nav .sidenav-trigger i {
+      margin-top: -5px;
+  }
+
+  .socialIcon a {
+      height: 35px;
+      width: 35px;
+      line-height: 35px;
+  }
+
+  .socialIcon .fab {
+      font-size: 17px;
+      margin: 9px 9px;
+  }
+
+  .bannerCarousel {
+      height: 150px !important;
+  }
+
+  .footer-top {
+      padding: 0 10px;
+  }
+
+  .footer-copyright {
+      padding: 0 10px !important;
+  }
+
+  .foodTabSec h2 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .fasFoodSec h2 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  .chefSlidSec h2 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  .fasFoodSec .card {
+      height: 300px;
+  }
+
+  .chefSlidSec img {
+      border: 2px solid #fffaf7;
+      width: 100px !important;
+      height: 100px;
+  }
+
+  .testCarousel h6 {
+      font-size: 14px;
+  }
+
+  .testCarousel p {
+      font-size: 10px;
+      width: 40%;
+      margin-left: 30%;
+  }
+
+  .ourFood {
+      border-radius: 0 0 5px 5px;
+      font-size: 12px;
+  }
+
+  .foodTabSec .ouRecDiv {
+      border-radius: 5px !important;
+      margin-bottom: 17px;
+  }
+
+  .foodTabSec .rounded-10 {
+      border-radius: 5px;
+  }
+
+  .instantCarousel h6 {
+      font-size: 8px;
+  }
+
+  .instantCarousel img {
+      border: 1px solid #fde7dc;
+  }
+
+  .instantCarousel {
+      margin-top: 0;
+  }
+
+  .vegCarousel {
+      margin-top: 0;
+  }
+
+  .nonvegCarousel {
+      margin-top: 0;
+  }
+
+  .beverageCarouse {
+      margin-top: 0;
+  }
+
+  .fasFoodSec .card .card-image {
+      height: 180px;
+  }
+
+  .fasFoodSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .fasFoodSec .fesName {
+      font-size: 10px;
+  }
+
+  .fasFoodSec {
+      padding-bottom: 1px;
+  }
+
+  .testCarousel {
+      height: 260px;
+  }
+
+  .testCarousel .carousel-item {
+      width: 400px;
+      margin-top: -20px;
+      padding: 0;
+  }
+
+  .footerFrsCol img {
+      width: 150px;
+      margin-top: 5px;
+      margin-bottom: -15px;
+  }
+
+  .page-footer {
+      padding-top: 10px;
+  }
+
+  .footer-top .row {
+      margin-bottom: 0;
+  }
+
+  .footer-top h5 {
+      font-size: 16px;
+  }
+
+  .ulQuick {
+      font-size: 12px;
+      line-height: 23px;
+  }
+
+  .footerFrsCol p {
+      width: 100%;
+      font-size: 12px;
+      line-height: 18px;
+  }
+
+  .ulContact {
+      font-size: 12px;
+      line-height: 24px;
+  }
+
+  .footer-copyright {
+      font-size: 10px;
+  }
+
+  .left {
+      float: center !important;
+      text-align: center;
+  }
+
+  .moveTop {
+      height: 30px;
+      width: 30px;
+      border-radius: 3px;
+      bottom: 10px;
+      right: 10px;
+  }
+
+  .footer-copyright p {
+      text-align: center;
+  }
+
+  .ftRight {
+      margin-top: -10px;
+  }
+
+  .foodTabSec {
+      padding-bottom: 0;
+  }
+
+  .brand-logo {
+      margin-top: 0px;
+  }
+
+  .aboutSec h2 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      line-height: 22px;
+  }
+
+  .notFoundCol h4 {
+      font-size: 20px;
+      margin-top: 150px;
+      margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 301px) and (max-width:400px) {
+  .timRowIng p {
+      font-size: 9px;
+  }
+
+  .notFoundCol h4 {
+      font-size: 12px;
+      margin-top: 150px;
+      margin-bottom: 150px;
+  }
+
+  .instRecBoxSec .card, .vegRecBoxSec .card, .nonvegRecBoxSec .card, .beverageRecBoxSec .card {
+      height: 450px;
+  }
+
+  .instRecBoxSec .card .card-image, .vegRecBoxSec .card .card-image, .nonvegRecBoxSec .card .card-image, .beverageRecBoxSec .card .card-image {
+      background-image: url('../images/glaserBg.jpg');
+      height: 240px;
+      position: relative;
+      overflow: hidden;
+  }
+
+  .srchtRecBoxSec .card, .vegRecBoxSec .card, .nonvegRecBoxSec .card, .beverageRecBoxSec .card {
+      height: 450px;
+  }
+
+  .srchtRecBoxSec .card .card-image, .vegRecBoxSec .card .card-image, .nonvegRecBoxSec .card .card-image, .beverageRecBoxSec .card .card-image {
+      background-image: url('../images/glaserBg.jpg');
+      height: 240px;
+      position: relative;
+      overflow: hidden;
+  }
+
+  .nonvegRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .imgProduct img {
+      border: 1px solid white;
+      top: 110px;
+      left: 10px;
+      width: 90px;
+  }
+
+  .bigSearch {
+      margin-left: 0;
+  }
+
+  .circleRec {
+      margin-bottom: 0;
+  }
+
+  .contactRightCol h5 {
+      font-size: 14px;
+  }
+
+  .nonvegRecContSec .divOpa {
+      margin-top: -180px;
+      margin-bottom: 10px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1px 10px 10px 10px;
+  }
+
+  .contactRightCol img {
+      width: 100px;
+      margin-top: -20px;
+      border: 2px solid whitesmoke;
+  }
+
+  .contactRightCol p {
+      font-size: 12px;
+      line-height: 21px;
+      width: 80%;
+      margin-left: 10%;
+      margin-bottom: 10px;
+  }
+
+  .imgNon img {
+      height: 170px;
+  }
+
+  .ingBannerSec .divOpa .desc {
+      margin-top: -20px;
+      font-size: 8px;
+  }
+
+  .ingreBotSec ul li {
+      margin-bottom: 0;
+  }
+
+  .ingBannerSec .category {
+      font-size: 10px;
+  }
+
+  .ingBannerSec .divOpa {
+      width: 240px;
+      padding: 0px 10px 10px 10px;
+      top: 87px;
+      right: 10px;
+  }
+
+  .ingBannerSec h2 {
+      font-size: 16px;
+      margin-top: -10px;
+      margin-bottom: -5px;
+  }
+
+  .ingreBotSec ul {
+      padding-left: 20px;
+      line-height: 20px
+  }
+
+  .ingreBotSec .ingredient {
+      font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  .ingreBotSec .method {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 0;
+      text-align: left;
+  }
+
+  .ingreBnrToprSec img {
+      height: 220px;
+      overflow: hidden;
+  }
+
+  .srchtRecBoxSec .card .card-image, .instRecBoxSec .card .card-image, .vegRecBoxSec .card .card-image, .nonvegRecBoxSec .card .card-image, .beverageRecBoxSec .card .card-image {
+      background-image: url('../images/glaserBg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 270px;
+  }
+
+  .vegRecBoxSec .fooName {
+      font-size: 16px;
+      margin-bottom: 5px !important;
+  }
+
+  .bigSearch input {
+      height: 35px;
+      font-size: 14px;
+      line-height: 35px;
+      width: 220px;
+  }
+
+  .bigSearch .fa-search {
+      font-size: 18px;
+  }
+
+  .imgVegR img {
+      height: 170px;
+  }
+
+  .bnrSec {
+      height: 150px;
+  }
+
+  .vegRecContSec h2 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
+
+  .instantRecContSec h2 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
+
+  .beverageRecContSec h2 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
+
+  .nonvegRecContSec h2 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
+
+  .beverageRecContSec .divOpa {
+      margin-top: -180px;
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1px 20px 10px 20px;
+  }
+
+  .instantRecContSec .divOpa {
+      margin-top: -180px;
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1px 20px 10px 20px;
+  }
+
+  .vegRecContSec .divOpa {
+      margin-top: -180px;
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1px 20px 10px 20px;
+  }
+
+  .srchtRecBoxSec h2 {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+
+  .instRecBoxSec h2 {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+
+  .srchtRecBoxSec h2 {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+
+  .nonvegRecBoxSec h2 {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+
+  .beverageRecBoxSec h2 {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+
+  .vegRecBoxSec h2 {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+
+  .formMessage {
+      height: 100px !important;
+  }
+
+  .vegRecBoxSec .card .card-image img {
+      height: 250px;
+      width: 250px;
+      margin: auto;
+  }
+
+  .beverageRecBoxSec .card .card-image img {
+      height: 250px;
+      width: 250px;
+      margin: auto;
+  }
+
+  .instRecBoxSec .card .card-image img {
+      height: 250px;
+      width: 250px;
+      margin: auto;
+  }
+
+  .srchtRecBoxSec .card .card-image img {
+      height: 250px;
+      width: 250px;
+      margin: auto;
+  }
+
+  .nonvegRecBoxSec .card .card-image img {
+      height: 250px;
+      width: 250px;
+      margin: auto;
+  }
+
+  .instRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .srchtRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .beverageRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .instRecBoxSec .fesName {
+      font-size: 10px;
+  }
+
+  .srchtRecBoxSec .fesName {
+      font-size: 10px;
+  }
+
+  .imgNonv img {
+      height: 170px;
+  }
+
+  .imgBever img {
+      height: 170px;
+  }
+
+  .instRecBoxSec .chefName {
+      font-size: 12px;
+  }
+
+  .instRecBoxSec .time {
+      font-size: 12px;
+  }
+
+  .instRecBoxSec .recipeDesc {
+      font-size: 12px;
+  }
+
+  .srchtRecBoxSec .chefName {
+      font-size: 12px;
+  }
+
+  .srchtRecBoxSec .time {
+      font-size: 12px;
+  }
+
+  .srchtRecBoxSec .recipeDesc {
+      font-size: 12px;
+  }
+
+  .btnSubmit, .btnSubmit:hover, .btnSubmit:focus {
+      height: 35px;
+      font-size: 12px;
+      padding: 0 30px;
+  }
+
+  .form-control {
+      height: 20px;
+  }
+
+  .contactSec iframe {
+      border: 3px solid white !important;
+      height: 150px;
+      margin-top: 15px;
+  }
+
+  .termsSec h2 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: -10px;
+  }
+
+  .termsSec h3 {
+      font-size: 14px;
+      margin-bottom: 0px;
+  }
+
+  .privacySec h2 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: -10px;
+  }
+
+  .privacySec h3 {
+      font-size: 14px;
+      margin-bottom: 0px;
+  }
+
+  .frsRowCon {
+      margin-bottom: 15px;
+  }
+
+  .contactRightCol h4 {
+      font-size: 14px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-weight: bolder;
+  }
+
+  .contactSec {
+      padding-bottom: 1px;
+  }
+
+  .qnaSec h2 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      margin-left: 25px;
+  }
+
+  .frsRowCon form .row {
+      margin-bottom: 10px;
+  }
+
+  .form-control {
+      padding: 16px;
+      border-radius: 3px;
+  }
+
+  .contactSec h2 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  html, body {
+      font-size: 12px;
+  }
+
+  .abtChefSec img {
+      border-radius: 10px;
+      height: 110px;
+      width: 110px;
+      border: 2px solid #4f48450d;
+      margin-top: 10px;
+  }
+
+  .findRecH1 {
+      font-size: 20px;
+      margin-top: 40px;
+  }
+
+  .btnBigSearch, .btnBigSearch:hover, .btnBigSearch:focus, .btnBigSearch:visited, .btnBigSearch:active {
+      margin-left: -50px;
+  }
+
+  .abtChefSec {
+      margin-top: -6px;
+      padding-bottom: 1px;
+  }
+
+  .aboutSec {
+      padding-bottom: 0px;
+      padding-top: 20px;
+  }
+
+  .aboutSec ul li {
+      margin-bottom: 0;
+  }
+
+  .aboutSec ul {
+      padding-left: 20px;
+      margin-top: 0;
+  }
+
+  .abtChefSec h2 {
+      font-size: 14px;
+      margin-top: 20px;
+      margin-bottom: 5px;
+  }
+
+  .abtChefSec h5 {
+      font-size: 12px;
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+
+  .abtChefSec h5 span {
+      font-size: 18px;
+      margin-left: 5px;
+  }
+
+  nav .sidenav-trigger {
+      height: 45px;
+  }
+
+  header nav {
+      padding: 0px 0px 0px 0px;
+      height: 45px;
+  }
+
+  header nav img {
+      width: 120px;
+      margin-top: 0;
+  }
+
+  nav .sidenav-trigger i {
+      margin-top: -5px;
+  }
+
+  .socialIcon a {
+      height: 35px;
+      width: 35px;
+      line-height: 35px;
+  }
+
+  .socialIcon .fab {
+      font-size: 17px;
+      margin: 9px 9px;
+  }
+
+  .bannerCarousel {
+      height: 150px !important;
+  }
+
+  .footer-top {
+      padding: 0 10px;
+  }
+
+  .footer-copyright {
+      padding: 0 10px !important;
+  }
+
+  .foodTabSec h2 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .fasFoodSec h2 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  .chefSlidSec h2 {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  .fasFoodSec .card {
+      height: 300px;
+  }
+
+  .chefSlidSec img {
+      border: 2px solid #fffaf7;
+      width: 100px !important;
+      height: 100px;
+  }
+
+  .testCarousel h6 {
+      font-size: 14px;
+  }
+
+  .testCarousel p {
+      font-size: 10px;
+      width: 40%;
+      margin-left: 30%;
+  }
+
+  .ourFood {
+      border-radius: 0 0 5px 5px;
+      font-size: 12px;
+  }
+
+  .foodTabSec .ouRecDiv {
+      border-radius: 5px !important;
+      margin-bottom: 17px;
+  }
+
+  .foodTabSec .rounded-10 {
+      border-radius: 5px;
+  }
+
+  .instantCarousel h6, .vegCarousel h6, .nonvegCarousel h6, .beverageCarousel h6 {
+      font-size: 8px;
+  }
+
+  .instantCarousel img, .vegCarousel img, .nonvegCarousel img, .beverageCarousel img {
+      border: 1px solid #fde7dc;
+  }
+
+  .instantCarousel {
+      margin-top: 0;
+  }
+
+  .vegCarousel {
+      margin-top: 0;
+  }
+
+  .nonvegCarousel {
+      margin-top: 0;
+  }
+
+  .beverageCarousel {
+      margin-top: 0;
+  }
+
+  .fasFoodSec .card .card-image {
+      height: 180px;
+  }
+
+  .fasFoodSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .fasFoodSec .fesName {
+      font-size: 10px;
+  }
+
+  .fasFoodSec {
+      padding-bottom: 1px;
+  }
+
+  .testCarousel {
+      height: 260px;
+  }
+
+  .testCarousel .carousel-item {
+      width: 400px;
+      margin-top: -20px;
+      padding: 0;
+  }
+
+  .footerFrsCol img {
+      width: 150px;
+      margin-top: 5px;
+      margin-bottom: -15px;
+  }
+
+  .page-footer {
+      padding-top: 10px;
+  }
+
+  .footer-top .row {
+      margin-bottom: 0;
+  }
+
+  .footer-top h5 {
+      font-size: 16px;
+  }
+
+  .ulQuick {
+      font-size: 12px;
+      line-height: 23px;
+  }
+
+  .footerFrsCol p {
+      width: 100%;
+      font-size: 12px;
+      line-height: 18px;
+  }
+
+  .ulContact {
+      font-size: 12px;
+      line-height: 24px;
+  }
+
+  .footer-copyright {
+      font-size: 10px;
+  }
+
+  .left {
+      float: center !important;
+      text-align: center;
+  }
+
+  .moveTop {
+      height: 30px;
+      width: 30px;
+      border-radius: 3px;
+      bottom: 10px;
+      right: 10px;
+  }
+
+  .footer-copyright p {
+      text-align: center;
+  }
+
+  .ftRight {
+      margin-top: -10px;
+  }
+
+  .foodTabSec {
+      padding-bottom: 0;
+  }
+
+  .brand-logo {
+      margin-top: 0px;
+  }
+
+  .aboutSec h2 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      line-height: 22px;
+  }
+}
+
+@media (min-width: 401px) and (max-width:600px) {
+  .notFoundCol h4 {
+      font-size: 14px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+
+  .imgNon img {
+      height: 150px;
+  }
+
+  .instRecBoxSec .card, .vegRecBoxSec .card, .nonvegRecBoxSec .card, .beverageRecBoxSec .card {
+      height: 400px;
+  }
+
+  .instRecBoxSec .card .card-image, .vegRecBoxSec .card .card-image, .nonvegRecBoxSec .card .card-image, .beverageRecBoxSec .card .card-image {
+      height: 240px;
+  }
+
+  .srchtRecBoxSec .card, .vegRecBoxSec .card, .nonvegRecBoxSec .card, .beverageRecBoxSec .card {
+      height: 400px;
+  }
+
+  .srchtRecBoxSec .card .card-image, .vegRecBoxSec .card .card-image, .nonvegRecBoxSec .card .card-image, .beverageRecBoxSec .card .card-image {
+      height: 240px;
+  }
+
+  .imgProduct img {
+      border: 2px solid white;
+      top: 115px;
+      left: 10px;
+      width: 100px;
+  }
+
+  .imgVegR img {
+      height: 150px;
+  }
+
+  .imgBever img {
+      height: 150px;
+  }
+
+  .beverageRecContSec h2 {
+      font-size: 18px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
+
+  .beverageRecContSec .divOpa {
+      margin-top: -160px;
+      margin-bottom: 20px;
+      width: 80%;
+      margin-left: 10%;
+      padding: 1px 20px 5px 20px;
+  }
+
+  .vegRecBoxSec .card .card-image img {
+      height: 230px;
+  }
+
+  .nonvegRecBoxSec .card .card-image img {
+      height: 230px;
+  }
+
+  .srchtRecBoxSec .card .card-image img {
+      height: 230px;
+  }
+
+  .instRecBoxSec .card .card-image img {
+      height: 230px;
+  }
+
+  .beverageRecBoxSec .card .card-image img {
+      height: 230px;
+  }
+
+  .vegRecBoxSec .fooName {
+      font-size: 14px;
+  }
+
+  .contactSec {
+      padding-bottom: 5px;
+  }
+
+  .beverageRecBoxSec h2 {
+      font-size: 18px;
+      margin-top: 0;
+      margin-bottom: 5px;
+  }
+
+  .beverageRecBoxSec .fooName {
+      font-size: 15px;
+  }
+
+  .ingreBnrToprSec img {
+      height: 220px;
+      margin-top: -6px;
+  }
+
+  .ingreBotSec ul li {
+      margin-bottom: 0;
+  }
+
+  .ingreBotSec ul {
+      padding-left: 20px;
+  }
+
+  .termsSec h2 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+
+  .termsSec h3 {
+      font-size: 14px;
+  }
+
+  .abtChefSec h2 {
+      font-size: 14px;
+      margin-top: 30px;
+      margin-bottom: 5px;
+  }
+
+  .instantRecContSec .divOpa {
+      margin-top: -166px;
+      margin-bottom: 20px;
+      width: 80%;
+      margin-left: 10%;
+      padding: 1px 20px 5px 20px;
+  }
+
+  .nonvegRecContSec .divOpa {
+      margin-top: -166px;
+      margin-bottom: 20px;
+      width: 80%;
+      margin-left: 10%;
+      padding: 1px 20px 5px 20px;
+  }
+
+  .vegRecContSec .divOpa {
+      margin-top: -166px;
+      margin-bottom: 20px;
+      width: 80%;
+      margin-left: 10%;
+      padding: 1px 20px 5px 20px;
+  }
+
+  .srchtRecBoxSec h2 {
+      font-size: 18px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+
+  .instRecBoxSec h2 {
+      font-size: 18px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+
+  .nonvegRecBoxSec h2 {
+      font-size: 18px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+
+  .vegRecBoxSec h2 {
+      font-size: 18px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+
+  .instantRecContSec .divOpa p {
+      margin-top: -13px;
+  }
+
+  .chefSlidSec .carousel {
+      height: 300px;
+  }
+
+  .instRecBoxSec .fooName {
+      font-size: 16px;
+      margin-bottom: 5px !important;
+  }
+
+  .srchtRecBoxSec .fooName {
+      font-size: 16px;
+      margin-bottom: 5px !important;
+  }
+
+  .nonvegRecBoxSec .fooName {
+      font-size: 16px;
+      margin-bottom: 5px !important;
+  }
+
+  .instantCarousel h6 {
+      font-size: 10px;
+  }
+
+  .instantRecContSec h2 {
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+
+  .nonvegRecContSec h2 {
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+
+  .vegRecContSec h2 {
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+
+  .ingBannerSec .divOpa {
+      width: 300px;
+      padding: 10px 10px 10px 10px;
+      top: 90px;
+      right: 20px;
+  }
+
+  .ingBannerSec h2 {
+      font-size: 16px;
+  }
+
+  .ingBannerSec .category {
+      font-size: 10px;
+  }
+
+  .ulContact {
+      font-size: 12px;
+      line-height: 27px;
+  }
+
+  .footerFrsCol p {
+      font-size: 12px;
+  }
+
+  .ulQuick {
+      font-size: 12px;
+      line-height: 23px;
+  }
+
+  .ingBannerSec .divOpa .desc {
+      margin-top: -20px;
+      font-size: 8px;
+  }
+
+  .ingreBotSec .ingredient {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+
+  .ingreBotSec .method {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+
+  .contactRightCol img {
+      width: 140px;
+      margin-top: 0;
+  }
+
+  .contactRightCol h5 {
+      font-size: 16px;
+  }
+
+  .btnSubmit, .btnSubmit:hover, .btnSubmit:focus {
+      height: 40px;
+      font-size: 12px;
+      padding: 0 30px;
+  }
+
+  .contactSec iframe {
+      border: 3px solid white !important;
+      height: 150px;
+      margin-top: 15px;
+  }
+
+  .formMessage {
+      height: 100px !important;
+  }
+
+  .form-control {
+      height: 23px;
+  }
+
+  .abtChefSec h5 span {
+      font-size: 26px;
+      margin-left: 10px;
+  }
+
+  .contactRightCol p {
+      font-size: 12px;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      line-height: normal;
+  }
+
+  .findRecH1 {
+      font-size: 18px;
+      margin-bottom: 20px;
+      margin-top: 40px;
+  }
+
+  .contactRightCol h4 {
+      font-size: 18px;
+  }
+
+  .qnaSec h2 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  .contactSec h2 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .bnrSec {
+      height: 150px;
+  }
+
+  .bigSearch .fa-search {
+      font-size: 20px;
+  }
+
+  .bigSearch input {
+      height: 35px;
+      font-size: 14px;
+      line-height: 35px;
+      width: 240px;
+      padding-left: 20px;
+  }
+
+  html, body {
+      font-size: 12px;
+  }
+
+  .socialIcon a {
+      height: 35px;
+      width: 35px;
+      line-height: 35px;
+  }
+
+  .socialIcon .fab {
+      font-size: 18px;
+      margin: 8px 8px;
+  }
+
+  .abtChefSec img {
+      border-radius: 5px;
+      height: 140px;
+      margin-top: 20px;
+  }
+
+  .abtChefSec {
+      margin-top: -6px;
+      padding-bottom: 5px;
+  }
+
+  .footer-copyright {
+      font-size: 10px;
+  }
+
+  .chefSlidSec img {
+      border: 2px solid #fffaf7;
+      width: 120px !important;
+      height: 120px;
+  }
+
+  .testCarousel h6 {
+      font-size: 14px;
+  }
+
+  .testCarousel .carousel-item {
+      width: 230px;
+      margin-top: -30px;
+  }
+
+  .footerFrsCol img {
+      width: 160px;
+      margin-top: 10px;
+      margin-bottom: -15px;
+  }
+
+  .privacySec h2 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+
+  .privacySec h3 {
+      font-size: 14px;
+  }
+
+  .footer-top h5 {
+      font-size: 16px;
+  }
+
+  .imgNonv img {
+      height: 150px;
+  }
+
+  .footerFrsCol p {
+      width: 100%;
+  }
+
+  .foodTabSec .ouRecDiv {
+      margin-bottom: 25px;
+  }
+
+  .bannerCarousel {
+      height: 170px !important;
+  }
+
+  .footer-top {
+      padding: 0 20px;
+  }
+
+  .footer-copyright {
+      padding: 0 20px !important;
+  }
+
+  header nav {
+      padding: 0px 0px 0px 0px;
+      height: 50px;
+  }
+
+  header nav img {
+      width: 150px;
+      margin-top: 15px;
+  }
+
+  .foodTabSec h2 {
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+  }
+
+  .fasFoodSec h2 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  .fasFoodSec .fooName {
+      font-size: 16px;
+      margin-bottom: 5px !important;
+  }
+
+  .chefSlidSec h2 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+
+  .fasFoodSec .card {
+      height: 400px;
+  }
+
+  .fasFoodSec .hoverable .card-image {
+      height: 280px;
+  }
+
+  .aboutSec h2 {
+      font-size: 18px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      line-height: 25px;
+  }
+
+  .aboutSec {
+      padding-bottom: 0;
+  }
+
+  .aboutSec ul li {
+      margin-bottom: 0;
+  }
+
+  .aboutSec ul {
+      padding-left: 20px;
+  }
+
+  .abtChefSec h5 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: 0px;
+  }
+}
+
+@media (min-width: 601px) and (max-width:767px) {
+  .notFoundCol h4 {
+      font-size: 24px;
+      margin-top: 150px;
+      margin-bottom: 100px;
+  }
+
+  .srchtRecBoxSec .card, .instRecBoxSec .card, .vegRecBoxSec .card, .nonvegRecBoxSec .card, .beverageRecBoxSec .card {
+      height: 450px;
+  }
+
+  .srchtRecBoxSec .card .card-image, .instRecBoxSec .card .card-image, .vegRecBoxSec .card .card-image, .nonvegRecBoxSec .card .card-image, .beverageRecBoxSec .card .card-image {
+      height: 220px;
+  }
+
+  .imgProduct img {
+      border: 2px solid white;
+      top: 100px;
+      left: 10px;
+      width: 60px;
+  }
+
+  .termsSec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+
+  .termsSec h3 {
+      font-size: 16px;
+  }
+
+  .privacySec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+
+  .privacySec h3 {
+      font-size: 16px;
+  }
+
+  .ingreBotSec .ingredient {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+
+  .ingBannerSec .category {
+      font-size: 10px;
+  }
+
+  .ingBannerSec .divOpa .desc {
+      margin-top: -20px;
+      font-size: 8px;
+  }
+
+  .ingreBotSec .method {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+  }
+
+  .ingBannerSec .divOpa {
+      width: 480px;
+      padding: 10px 20px 5px 20px;
+      top: 70px;
+      right: 5px;
+  }
+
+  .ingBannerSec h2 {
+      font-size: 20px;
+  }
+
+  .srchtRecBoxSec h2 {
+      font-size: 20px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+
+  .instRecBoxSec h2 {
+      font-size: 20px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+
+  .instantRecContSec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .instantRecContSec .divOpa {
+      margin-top: -170px;
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1px 40px 10px 40px;
+  }
+
+  .instRecBoxSec .fooName {
+      font-size: 16px;
+  }
+
+  .srchtRecBoxSec .fooName {
+      font-size: 16px;
+  }
+
+  .srchtRecBoxSec h2 {
+      font-size: 20px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+
+  .instRecBoxSec h2 {
+      font-size: 20px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+
+  .vegRecContSec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .vegRecContSec .divOpa {
+      margin-top: -170px;
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1px 40px 10px 40px;
+  }
+
+  .vegRecBoxSec .fooName {
+      font-size: 16px;
+  }
+
+  .vegRecBoxSec h2 {
+      font-size: 20px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+
+  .nonvegRecBoxSec h2 {
+      font-size: 20px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+
+  .beverageRecBoxSec h2 {
+      font-size: 20px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+
+  .nonvegRecContSec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .nonvegRecContSec .divOpa {
+      margin-top: -170px;
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1px 40px 10px 40px;
+  }
+
+  .nonvegRecBoxSec .fooName {
+      font-size: 16px;
+  }
+
+  .beverageBoxSec h2 {
+      font-size: 20px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+
+  .beverageRecContSec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .beverageRecContSec .divOpa {
+      margin-top: -170px;
+      margin-bottom: 20px;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1px 40px 10px 40px;
+  }
+
+  .beverageRecBoxSec .fooName {
+      font-size: 16px;
+  }
+
+  .vegCarousel .owl-prev {
+      left: -50px;
+  }
+
+  .vegCarousel .owl-next {
+      right: -50px;
+  }
+
+  .fasFoodSec .fooName {
+      font-size: 16px;
+  }
+
+  .testCarousel h6 {
+      font-size: 16px;
+  }
+
+  .foodTabSec {
+      padding-bottom: 0;
+  }
+
+  .ulContact {
+      font-size: 12px;
+      line-height: 25px;
+  }
+
+  .footerFrsCol p {
+      width: 90%;
+      font-size: 12px;
+  }
+
+  .ulQuick {
+      font-size: 12px;
+      line-height: 22px;
+  }
+
+  .footer-copyright {
+      font-size: 10px;
+  }
+
+  .page-footer .footer-copyright {
+      overflow: hidden;
+      min-height: 36px;
+  }
+
+  .footerFrsCol img {
+      width: 170px;
+      margin-top: 0px;
+      margin-bottom: -15px;
+  }
+
+  .footer-top h5 {
+      font-size: 16px;
+  }
+
+  .foodTabSec .ouRecDiv {
+      margin-bottom: 18px;
+  }
+
+  header nav {
+      padding: 0 0px 0 0px;
+      height: 60px;
+  }
+
+  header nav img {
+      width: 170px;
+      margin-top: 10px;
+  }
+
+  nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+      line-height: 52px;
+      min-height: 52px;
+      margin-bottom: -12px;
+  }
+
+  .abtChefSec h2 {
+      font-size: 16px;
+      margin-top: 40px;
+  }
+
+  .abtChefSec h5 span {
+      font-size: 20px;
+      margin-left: 5px;
+  }
+
+  .abtChefSec h5 {
+      font-size: 14px;
+      margin-bottom: 10px;
+      margin-top: 0px;
+  }
+
+  .abtChefSec img {
+      margin-top: 50px;
+      border-radius: 10px;
+  }
+
+  .contactSec {
+      padding-bottom: 5px;
+  }
+
+  .btnSubmit, .btnSubmit:hover, .btnSubmit:focus {
+      height: 33px;
+      font-size: 12px;
+      padding: 0 30px;
+      line-height: 33px;
+      margin-bottom: -10px;
+  }
+
+  .formMessage {
+      height: 100px !important;
+  }
+
+  .form-control {
+      height: 30px;
+      padding: 15px;
+  }
+
+  .frsRowCon form .row {
+      margin-bottom: 10px;
+  }
+
+  .contactRightCol img {
+      width: 90px;
+      margin-top: 0;
+  }
+
+  .contactSec iframe {
+      border: 4px solid white !important;
+      height: 200px;
+      margin-top: 20px;
+  }
+
+  .contactRightCol h5 {
+      font-size: 14px;
+  }
+
+  .contactRightCol p {
+      font-size: 12px;
+      line-height: 19px;
+  }
+
+  .contactRightCol h4 {
+      font-size: 17px;
+      margin-bottom: 5px;
+  }
+
+  .bigSearch .fa-search {
+      font-size: 20px;
+  }
+
+  .bigSearch input {
+      height: 45px;
+      font-size: 14px;
+      line-height: 45px;
+      width: 400px;
+      padding-left: 20px;
+  }
+
+  .qnaSec h2 {
+      font-size: 18px;
+  }
+
+  .contactSec h2 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .bnrSec {
+      height: 220px;
+  }
+
+  .findRecH1 {
+      font-size: 60px;
+      margin-top: 90px;
+      margin-bottom: 30px;
+  }
+
+  .bigSearch .fa-search {
+      font-size: 20px;
+  }
+
+  .bigSearch input {
+      height: 40px;
+      font-size: 14px;
+      line-height: 40px;
+      width: 320px;
+      padding-left: 30px;
+  }
+
+  .findRecH1 {
+      font-size: 30px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      margin-left: 40px;
+  }
+
+  html, body {
+      font-size: 12px;
+  }
+
+  .bannerCarousel {
+      height: 200px !important;
+  }
+
+  .footer-top {
+      padding: 0 20px;
+  }
+
+  .footer-copyright {
+      padding: 0 20px !important;
+  }
+
+  .foodTabSec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  .fasFoodSec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  .chefSlidSec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  .fasFoodSec .card {
+      height: 330px;
+  }
+
+  .fasFoodSec .hoverable .card-image {
+      height: 200px;
+  }
+
+  .aboutSec h2 {
+      font-size: 20px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+      line-height: 28px;
+  }
+
+  .aboutSec {
+      padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .notFoundCol h4 {
+      font-size: 20px;
+      margin-top: 200px;
+      margin-bottom: 250px;
+  }
+
+  .srchtRecBoxSec .card .card-image, .instRecBoxSec .card .card-image, .vegRecBoxSec .card .card-image, .nonvegRecBoxSec .card .card-image, .beverageRecBoxSec .card .card-image {
+      height: 310px;
+  }
+
+  .srchtRecBoxSec .card, .instRecBoxSec .card, .vegRecBoxSec .card, .nonvegRecBoxSec .card, .beverageRecBoxSec .card {
+      height: 500px;
+  }
+
+  .imgProduct img {
+      border: 2px solid white;
+      top: 125px;
+      left: 50px;
+      width: 130px;
+  }
+
+  .imgVegR img, .imgNonv img, .imgNon img, .imgBever img, .ingreBnrToprSec img {
+      margin-top: -4px;
+  }
+
+  .privacySec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+
+  .privacySec h3 {
+      font-size: 16px;
+  }
+
+  .termsSec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+
+  .termsSec h3 {
+      font-size: 16px;
+  }
+
+  .ingreBotSec .ingredient {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  .ingBannerSec .divOpa {
+      width: 470px;
+      padding: 0px 20px 10px 20px;
+      top: 100px;
+      right: 50px;
+  }
+
+  .srchtRecBoxSec .fooName {
+      font-size: 18px;
+      margin-bottom: 5px !important;
+  }
+
+  .instRecBoxSec .fooName {
+      font-size: 18px;
+      margin-bottom: 5px !important;
+  }
+
+  .vegRecBoxSec .fooName {
+      font-size: 18px;
+      margin-bottom: 5px !important;
+  }
+
+  .nonvegRecBoxSec .fooName {
+      font-size: 18px;
+      margin-bottom: 5px !important;
+  }
+
+  .beverageRecBoxSec .fooName {
+      font-size: 18px;
+      margin-bottom: 5px !important;
+  }
+
+  .ingBannerSec h2 {
+      font-size: 20px;
+      margin-top: -10px;
+  }
+
+  .ingBannerSec .category {
+      font-size: 12px;
+  }
+
+  .ingBannerSec .divOpa .desc {
+      margin-top: -20px;
+  }
+
+  .ingreBnrToprSec img {
+      height: 260px;
+      overflow: hidden;
+  }
+
+  .aboutBnrSec img {
+      margin-top: -3px;
+  }
+
+  .ingreBotSec .method {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  .socialIcon .fab {
+      margin: 13px 13px;
+  }
+
+  .contactRightCol h5 {
+      font-size: 15px;
+  }
+
+  .contactRightCol img {
+      width: 150px;
+      margin-top: 10px;
+  }
+
+  .formMessage {
+      height: 120px !important;
+  }
+
+  .contactRightCol p {
+      font-size: 14px;
+      line-height: 24px;
+  }
+
+  .btnSubmit, .btnSubmit:hover, .btnSubmit:focus {
+      height: 40px;
+      font-size: 12px;
+      padding: 0 30px;
+      margin-bottom: -15px
+  }
+
+  .form-control {
+      height: 30px;
+  }
+
+  .contactSec iframe {
+      border: 4px solid white !important;
+      height: 250px;
+      margin-top: 20px;
+  }
+
+  .contactRightCol h4 {
+      font-size: 23px;
+  }
+
+  .contactSec {
+      padding-bottom: 10px;
+  }
+
+  .findRecH1 {
+      font-size: 30px;
+      margin-top: 80px;
+      margin-bottom: 30px;
+  }
+
+  .bnrSec {
+      height: 260px;
+  }
+
+  .qnaBnrSec img {
+      margin-top: -3px;
+  }
+
+  .qnaSec h2 {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .contactSec h2 {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .bigSearch .fa-search {
+      font-size: 20px;
+  }
+
+  .bigSearch input {
+      height: 45px;
+      font-size: 14px;
+      line-height: 45px;
+      width: 400px;
+      padding-left: 20px;
+  }
+
+  .instantRecContSec h2 {
+      font-size: 25px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .instRecBoxSec h2 {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .srchtRecBoxSec h2 {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .instantRecContSec .divOpa {
+      margin-top: -210px;
+      margin-bottom: 30px;
+      padding: 1px 50px 30px 50px;
+  }
+
+  .beverageRecContSec h2 {
+      font-size: 25px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .beverageRecBoxSec h2 {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .beverageRecContSec .divOpa {
+      margin-top: -210px;
+      margin-bottom: 30px;
+      padding: 1px 50px 30px 50px;
+  }
+
+  .nonvegRecContSec h2 {
+      font-size: 25px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .nonvegRecBoxSec h2 {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .nonvegRecContSec .divOpa {
+      margin-top: -210px;
+      margin-bottom: 30px;
+      padding: 1px 50px 30px 50px;
+  }
+
+  .vegRecContSec h2 {
+      font-size: 25px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .vegRecBoxSec h2 {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .vegRecContSec .divOpa {
+      margin-top: -210px;
+      margin-bottom: 30px;
+      padding: 1px 50px 30px 50px;
+  }
+
+  .abtChefSec img {
+      margin-bottom: -4px;
+  }
+
+  .footerFrsCol p {
+      width: 100%;
+  }
+
+  .aboutSec {
+      padding-bottom: 0;
+  }
+
+  .abtChefSec h5 span {
+      font-size: 20px;
+      margin-left: 5px;
+  }
+
+  .abtChefSec h2 {
+      font-size: 18px;
+      margin-top: 50px;
+  }
+
+  .abtChefSec h5 {
+      font-size: 12px;
+      margin-bottom: 20px;
+      margin-top: 0px;
+  }
+
+  .abtChefSec {
+      margin-top: -5px;
+  }
+
+  .aboutSec h2 {
+      font-size: 20px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+  }
+
+  html, body {
+      font-size: 12px;
+  }
+
+  .testCarousel .carousel-item {
+      width: 220px;
+      margin-top: -70px;
+  }
+
+  .instantCarousel {
+      margin-top: 0;
+  }
+
+  .testCarousel p {
+      font-size: 10px;
+      width: 60%;
+      margin-left: 20%;
+  }
+
+  .fasFoodSec .fooName {
+      font-size: 16px;
+  }
+
+  .chefSlidSec img {
+      width: 150px !important;
+      height: 150px;
+  }
+
+  .testCarousel h6 {
+      font-size: 16px;
+  }
+
+  .instantCarousel .owl-next {
+      right: -60px;
+  }
+
+  .instantCarousel .owl-prev {
+      left: -60px;
+  }
+
+  .socialIcon .fab {
+      font-size: 20px;
+  }
+
+  .socialIcon a {
+      height: 45px;
+      width: 45px;
+      line-height: 45px;
+  }
+
+  .page-footer .footer-copyright {
+      font-size: 12px;
+      min-height: 42px;
+  }
+
+  .bannerCarousel {
+      height: 270px !important;
+  }
+
+  .ourFood {
+      font-size: 16px;
+  }
+
+  .beverageCarousel h6 {
+      font-size: 10px;
+  }
+
+  .footer-top {
+      padding: 0 30px;
+  }
+
+  .footer-copyright {
+      padding: 0 30px !important;
+  }
+
+  .foodTabSec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  .fasFoodSec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  .chefSlidSec h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  .fasFoodSec .card {
+      height: 380px;
+  }
+
+  .fasFoodSec .hoverable .card-image {
+      height: 250px;
+  }
+
+  .footerFrsCol p {
+      font-size: 14px;
+  }
+
+  .footer-top h5 {
+      font-size: 20px;
+  }
+
+  .ulQuick {
+      font-size: 14px;
+      line-height: 25px;
+  }
+
+  .footerFrsCol img {
+      width: 200px;
+      margin-top: 10px;
+      margin-bottom: -15px;
+  }
+
+  .ulContact {
+      font-size: 14px;
+      line-height: 30px;
+  }
+
+  header nav img {
+      width: 220px;
+      margin-top: 15px;
+  }
+
+  header nav {
+      padding: 0px 0px 0px 20px;
+      height: 60px;
+  }
+
+  .foodTabSec .ouRecDiv {
+      margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  .material-icons {
+      color:black;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+  .notFoundCol h4 {
+      font-size: 26px;
+      margin-top: 500px;
+      margin-bottom: 500px;
+  }
+
+  .srchtRecBoxSec .card, .instRecBoxSec .card, .vegRecBoxSec .card, .nonvegRecBoxSec .card, .beverageRecBoxSec .card {
+      height: 450px;
+  }
+
+  .srchtRecBoxSec .card .card-image, .instRecBoxSec .card .card-image, .vegRecBoxSec .card .card-image, .nonvegRecBoxSec .card .card-image, .beverageRecBoxSec .card .card-image {
+      height: 200px;
+  }
+
+  .imgProduct img {
+      border: 2px solid white;
+      top: 120px;
+      left: 150px;
+      width: 160px;
+  }
+
+  .dropdown-content li > a, .dropdown-content li > span {
+      font-size: 13px;
+  }
+
+  .ingreBnrToprSec img, .imgNonv img, .aboutBnrSec img, .imgVegR img, .imgNon img, .imgBever img, .qnaBnrSec img {
+      margin-top: -2px;
+  }
+
+  .termsSec h2 {
+      font-size: 25px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+  }
+
+  .termsSec h3 {
+      font-size: 18px;
+  }
+
+  .privacySec h2 {
+      font-size: 25px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+  }
+
+  .privacySec h3 {
+      font-size: 18px;
+  }
+
+  .contactSec {
+      padding-bottom: 10px;
+  }
+
+  .ingreBotSec .ingredient {
+      font-size: 25px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+  }
+
+  .ingreBotSec .method {
+      font-size: 25px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+  }
+
+  .abtChefSec img {
+      margin-bottom: -5px;
+  }
+
+  .ingBannerSec .divOpa {
+      width: 480px;
+      padding: 0px 20px 10px 20px;
+      top: 95px;
+      right: 150px;
+  }
+
+  .ingBannerSec h2 {
+      font-size: 25px;
+  }
+
+  .ingBannerSec .category {
+      font-size: 13px;
+  }
+
+  .testCarousel h6 {
+      font-size: 17px;
+  }
+
+  .searchForm .fa-search {
+      margin-top: -16px;
+  }
+
+  .searchMobile .fa-search {
+      margin-top: -16px;
+  }
+
+  .socialIcon a {
+      height: 45px;
+      width: 45px;
+      line-height: 45px;
+  }
+
+  .socialIcon .fab {
+      font-size: 20px;
+      margin: 12px 13px;
+  }
+
+  .contactRightCol h5 {
+      font-size: 18px;
+  }
+
+  .formMessage {
+      height: 140px !important;
+  }
+
+  .form-control {
+      height: 35px;
+  }
+
+  .btnSubmit, .btnSubmit:hover, .btnSubmit:focus {
+      height: 40px;
+      font-size: 14px;
+      padding: 0 35px;
+      margin-bottom: -10px;
+  }
+
+  .contactRightCol img {
+      width: 150px;
+      margin-top: 60px;
+  }
+
+  .contactSec iframe {
+      border: 4px solid white !important;
+      height: 260px;
+      margin-top: 25px;
+  }
+
+  .contactRightCol p {
+      font-size: 13px;
+      line-height: 23px;
+      width: 90%;
+      margin-left: 10%;
+  }
+
+  .bnrSec {
+      height: 320px;
+  }
+
+  .contactRightCol h4 {
+      font-size: 25px;
+  }
+
+  .qnaSec h2 {
+      font-size: 25px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .contactSec h2 {
+      font-size: 25px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .bigSearch .fa-search {
+      font-size: 22px;
+  }
+
+  .bigSearch input {
+      height: 45px;
+      font-size: 14px;
+      line-height: 45px;
+      width: 470px;
+      padding-left: 20px;
+  }
+
+  .findRecH1 {
+      font-size: 40px;
+      margin-top: 100px;
+      margin-bottom: 30px;
+  }
+
+  .srchtRecBoxSec .fooName {
+      font-size: 16px;
+  }
+
+  .instRecBoxSec .fooName {
+      font-size: 16px;
+  }
+
+  .vegRecBoxSec .fooName {
+      font-size: 16px;
+  }
+
+  .nonvegRecBoxSec .fooName {
+      font-size: 16px;
+  }
+
+  .beverageRecBoxSec .fooName {
+      font-size: 16px;
+  }
+
+  header nav ul.hide-on-med-and-down {
+      margin-top: 0;
+  }
+
+  .instRecBoxSec .time {
+      font-size: 11px;
+  }
+
+  .srchtRecBoxSec .time {
+      font-size: 11px;
+  }
+
+  .instantRecContSec .divOpa {
+      margin-top: -236px;
+      margin-bottom: 80px;
+      padding: 1px 60px 20px 60px;
+  }
+
+  .instantRecContSec h2 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .instRecBoxSec h2 {
+      font-size: 25px;
+      margin-top: 0;
+      margin-bottom: 5px;
+  }
+
+  .srchtRecBoxSec h2 {
+      font-size: 25px;
+      margin-top: 0;
+      margin-bottom: 5px;
+  }
+
+  .vegRecBoxSec .time {
+      font-size: 11px;
+  }
+
+  .vegRecContSec .divOpa {
+      margin-top: -236px;
+      margin-bottom: 80px;
+      padding: 1px 60px 20px 60px;
+  }
+
+  .vegRecContSec h2 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .vegRecBoxSec h2 {
+      font-size: 25px;
+      margin-top: 0;
+      margin-bottom: 5px;
+  }
+
+  .nonvegRecBoxSec .time {
+      font-size: 11px;
+  }
+
+  .nonvegRecContSec .divOpa {
+      margin-top: -236px;
+      margin-bottom: 80px;
+      padding: 1px 60px 20px 60px;
+  }
+
+  .nonvegRecContSec h2 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .nonvegRecBoxSec h2 {
+      font-size: 25px;
+      margin-top: 0;
+      margin-bottom: 5px;
+  }
+
+  .beverageRecBoxSec .time {
+      font-size: 11px;
+  }
+
+  .beverageRecContSec .divOpa {
+      margin-top: -236px;
+      margin-bottom: 80px;
+      padding: 1px 60px 20px 60px;
+  }
+
+  .beverageRecContSec h2 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .beverageRecBoxSec h2 {
+      font-size: 25px;
+      margin-top: 0;
+      margin-bottom: 5px;
+  }
+
+  .aboutSec {
+      padding-bottom: 0;
+  }
+
+  .abtChefSec h2 {
+      font-size: 22px;
+      margin-top: 30px;
+  }
+
+  .abtChefSec h5 {
+      font-size: 14px;
+      margin-bottom: 20px;
+      margin-top: 0px;
+  }
+
+  .abtChefSec h5 span {
+      font-size: 24px;
+      margin-left: 5px;
+  }
+
+  .abtChefSec {
+      margin-top: -6px;
+  }
+
+  .footerFrsCol p {
+      font-size: 14px;
+  }
+
+  .footer-top h5 {
+      font-size: 20px;
+  }
+
+  .page-footer .footer-copyright {
+      font-size: 12px;
+      min-height: 42px;
+  }
+
+  .ulQuick {
+      font-size: 14px;
+      line-height: 25px;
+  }
+
+  .ulContact {
+      font-size: 14px;
+      line-height: 30px;
+  }
+
+  .footerFrsCol img {
+      width: 200px;
+  }
+
+  .instantCarousel .owl-prev span, .instantCarousel .owl-next span {
+      font-size: 30px;
+      margin-top: -24px;
+      margin-left: -4px;
+  }
+
+  .vegCarousel .owl-prev span, .vegCarousel .owl-next span {
+      font-size: 30px;
+      margin-top: -24px;
+      margin-left: -4px;
+  }
+
+  .nonvegCarousel .owl-prev span, .nonvegCarousel .owl-next span {
+      font-size: 30px;
+      margin-top: -24px;
+      margin-left: -4px;
+  }
+
+  .beverageCarousel .owl-prev span, .beverageCarousel .owl-next span {
+      font-size: 30px;
+      margin-top: -24px;
+      margin-left: -4px;
+  }
+
+  .fasFoodSec .fooName {
+      font-size: 16px;
+      margin-bottom: 5px !important;
+  }
+
+  .chefSlidSec img {
+      width: 170px !important;
+      height: 170px;
+  }
+
+  .testCarousel .carousel-item {
+      width: 350px;
+      margin-top: -80px;
+  }
+
+  .instantCarousel button {
+      height: 30px;
+      width: 30px;
+  }
+
+  .vegCarousel button {
+      height: 30px;
+      width: 30px;
+  }
+
+  .nonvegCarousel button {
+      height: 30px;
+      width: 30px;
+  }
+
+  .beverageCarousel button {
+      height: 30px;
+      width: 30px;
+  }
+
+  .instantCarousel h6 {
+      font-size: 10px;
+  }
+
+  .vegCarousel h6 {
+      font-size: 10px;
+  }
+
+  .nonvegCarousel h6 {
+      font-size: 10px;
+  }
+
+  .beverageCarousel h6 {
+      font-size: 10px;
+  }
+
+  .instantCarousel img {
+      border: 2px solid #fde7dc;
+  }
+
+  .vegCarousel img {
+      border: 2px solid #fde7dc;
+  }
+
+  .nonvegCarousel img {
+      border: 2px solid #fde7dc;
+  }
+
+  .beverageCarousel img {
+      border: 2px solid #fde7dc;
+  }
+
+  header nav img {
+      width: 200px;
+      margin-top: 0;
+  }
+
+  header nav {
+      padding: 14px 40px 15px 40px;
+      height: 65px;
+      z-index: 10;
+  }
+
+  .searchForm input {
+      width: 200px;
+  }
+
+  .searchMobile input {
+      width: 200px;
+  }
+
+  .ourFood {
+      font-size: 14px;
+  }
+
+  .fasFoodSec .hoverable .card-image {
+      height: 270px;
+  }
+
+  .bannerCarousel {
+      height: 350px !important;
+  }
+
+  .footer-top {
+      padding: 0 50px;
+  }
+
+  .footer-copyright {
+      padding: 0 50px !important;
+  }
+
+  .foodTabSec h2 {
+      font-size: 25px;
+      margin-top: 25px;
+      margin-bottom: 15px;
+  }
+
+  .fasFoodSec h2 {
+      font-size: 25px;
+      margin-top: 25px;
+      margin-bottom: 15px;
+  }
+
+  .chefSlidSec h2 {
+      font-size: 25px;
+      margin-top: 25px;
+      margin-bottom: 15px;
+  }
+
+  .fasFoodSec .card {
+      height: 400px;
+  }
+
+  html, body {
+      font-size: 13px;
+  }
+
+  .aboutSec h2 {
+      font-size: 25px;
+      margin-top: 20px;
+      margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1400px) {
+  .ingBannerSec>.row {
+      margin-bottom:0px;
+  }
+
+  .abtChefSec h5 span {
+      font-size: 30px;
+  }
+
+  .notFoundCol h4 {
+      font-size: 28px;
+      margin-top: 180px;
+      margin-bottom: 170px;
+  }
+
+  .srchtRecBoxSec .card, .instRecBoxSec .card, .vegRecBoxSec .card, .nonvegRecBoxSec .card, .beverageRecBoxSec .card {
+      height: 400px;
+  }
+
+  .srchtRecBoxSec .card .card-image, .instRecBoxSec .card .card-image, .vegRecBoxSec .card .card-image, .nonvegRecBoxSec .card .card-image, .beverageRecBoxSec .card .card-image {
+      height: 180px;
+  }
+
+  .imgProduct img {
+      border: 2px solid white;
+      top: 130px;
+      height: 200px;
+      left: 120px
+  }
+
+  .fasFoodSec .preCooTot {
+      font-size: 11px;
+  }
+
+  .ingreBotSec .ingredient {
+      font-size: 30px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+  }
+
+  .ingreBotSec .method {
+      font-size: 30px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+  }
+
+  .ingBannerSec .divOpa {
+      width: 500px;
+      padding: 10px 30px 10px 30px;
+      top: 115px;
+      right: 150px;
+  }
+
+  .ingBannerSec h2 {
+      font-size: 30px;
+      margin-top: -15px;
+  }
+
+  .ingBannerSec .category {
+      font-size: 14px;
+  }
+
+  .srchtRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .srchtRecBoxSec .chefName {
+      font-size: 10px;
+  }
+
+  .instRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .instRecBoxSec .chefName {
+      font-size: 10px;
+  }
+
+  .vegRecBoxSec .chefName {
+      font-size: 10px;
+  }
+
+  .nonvegRecBoxSec .chefName {
+      font-size: 10px;
+  }
+
+  .beverageRecBoxSec .chefName {
+      font-size: 10px;
+  }
+
+  .instRecBoxSec .time {
+      font-size: 8px;
+  }
+
+  .srchtRecBoxSec .time {
+      font-size: 8px;
+  }
+
+  .vegRecBoxSec .time {
+      font-size: 8px;
+  }
+
+  .nonvegRecBoxSec .time {
+      font-size: 8px;
+  }
+
+  .beverageRecBoxSec .time {
+      font-size: 8px;
+  }
+
+  .vegRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .nonvegRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  .beverageRecBoxSec .fooName {
+      font-size: 14px;
+      margin-bottom: 5px !important;
+  }
+
+  nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+      line-height: 34px;
+  }
+
+  .privacySec h2 {
+      font-size: 30px;
+      margin-top: 35px;
+      margin-bottom: 15px;
+  }
+
+  .privacySec h3 {
+      font-size: 18px;
+  }
+
+  .termsSec h2 {
+      font-size: 30px;
+      margin-top: 35px;
+      margin-bottom: 15px;
+  }
+
+  .termsSec h3 {
+      font-size: 18px;
+  }
+
+  .contactRightCol img {
+      width: 150px;
+      margin-top: 30px;
+  }
+
+  .contactRightCol img {
+      width: 160px;
+      margin-top: 10px;
+  }
+
+  .formMessage {
+      height: 200px !important;
+  }
+
+  .form-control {
+      height: 40px;
+  }
+
+  .btnSubmit, .btnSubmit:hover, .btnSubmit:focus {
+      height: 40px;
+      font-size: 14px;
+      padding: 0 35px;
+      margin-bottom: 0;
+  }
+
+  .contactSec iframe {
+      border: 4px solid white !important;
+      height: 300px;
+      margin-top: 30px;
+  }
+
+  .contactRightCol h4 {
+      font-size: 28px;
+  }
+
+  .bnrSec {
+      height: 350px;
+  }
+
+  .qnaSec h2 {
+      font-size: 30px;
+  }
+
+  .contactSec h2 {
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 25px;
+  }
+
+  .bigSearch input {
+      height: 48px;
+      font-size: 16px;
+      line-height: 48px;
+      width: 400px;
+      padding-left: 20px;
+  }
+
+  .findRecH1 {
+      font-size: 40px;
+      margin-top: 120px;
+      margin-bottom: 30px;
+  }
+
+  html, body {
+      font-size: 14px;
+  }
+
+  .fasFoodSec .fooName {
+      font-size: 16px;
+  }
+
+  .instantRecContSec h2 {
+      font-size: 35px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .vegRecContSec h2 {
+      font-size: 35px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .nonvegRecContSec h2 {
+      font-size: 35px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .beverageRecContSec h2 {
+      font-size: 35px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .instantRecContSec .divOpa {
+      margin-top: -280px;
+      margin-bottom: 70px;
+      padding: 1px 60px 30px 60px;
+  }
+
+  .vegRecContSec .divOpa {
+      margin-top: -280px;
+      margin-bottom: 70px;
+      padding: 1px 60px 30px 60px;
+  }
+
+  .nonvegRecContSec .divOpa {
+      margin-top: -280px;
+      margin-bottom: 70px;
+      padding: 1px 60px 30px 60px;
+  }
+
+  .beverageRecContSec .divOpa {
+      margin-top: -280px;
+      margin-bottom: 70px;
+      padding: 1px 60px 30px 60px;
+  }
+
+  .instRecBoxSec h2 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  .srchtRecBoxSec h2 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  .vegRecBoxSec h2 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  .nonvegRecBoxSec h2 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  .beverageRecBoxSec h2 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+
+  .contactSec {
+      padding-bottom: 10px;
+  }
+
+  .socialIcon .fab {
+      font-size: 22px;
+      margin: 13px 13px;
+  }
+
+  .socialIcon a {
+      display: block;
+      height: 45px;
+      width: 45px;
+      line-height: 45px;
+  }
+
+  .socialIcon .fab {
+      font-size: 19px;
+  }
+
+  .instantCarousel button {
+      height: 30px;
+      width: 30px;
+  }
+
+  .instantCarousel .owl-prev span, .instantCarousel .owl-next span {
+      font-size: 33px;
+      margin-top: -26px;
+      margin-left: -5px;
+  }
+
+  .vegCarousel button {
+      height: 30px;
+      width: 30px;
+  }
+
+  .vegCarousel .owl-prev span, .vegCarousel .owl-next span {
+      font-size: 33px;
+      margin-top: -26px;
+      margin-left: -5px;
+  }
+
+  .nonvegCarousel button {
+      height: 30px;
+      width: 30px;
+  }
+
+  .nonvegCarousel .owl-prev span, .nonvegCarousel .owl-next span {
+      font-size: 33px;
+      margin-top: -26px;
+      margin-left: -5px;
+  }
+
+  .beverageCarousel button {
+      height: 30px;
+      width: 30px;
+  }
+
+  .beverageCarousel .owl-prev span, .beverageCarousel .owl-next span {
+      font-size: 33px;
+      margin-top: -26px;
+      margin-left: -5px;
+  }
+
+  .searchForm {
+      margin-top: 0;
+      margin-left: 10px;
+  }
+
+  .searchMobile {
+      margin-top: 0;
+      margin-left: 10px;
+  }
+
+  header nav img {
+      width: 200px;
+      margin-top: 0;
+  }
+
+  header nav {
+      padding: 14px 60px 0 65px;
+      height: 60px;
+  }
+
+  header nav ul a, header nav ul a:hover {
+      height: 40px;
+      line-height: 40px;
+      font-size: 15px;
+  }
+
+  .bannerCarousel {
+      height: 400px !important;
+  }
+
+  .footer-top {
+      padding: 0 100px;
+  }
+
+  .footer-copyright {
+      padding: 0 100px !important;
+  }
+
+  .foodTabSec h2 {
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .fasFoodSec h2 {
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .chefSlidSec h2 {
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .fasFoodSec .card {
+      height: 320px;
+  }
+
+  .testCarousel .carousel-item {
+      width: 320px;
+  }
+
+  .chefSlidSec img {
+      border: 4px solid #fffaf7;
+      width: 200px !important;
+      height: 200px;
+  }
+
+  .testCarousel h6 {
+      font-size: 20px;
+  }
+
+  .testCarousel p {
+      font-size: 12px;
+      width: 50%;
+      margin-left: 25%;
+  }
+
+  .footerFrsCol img {
+      width: 220px;
+  }
+
+  .footer-top h5 {
+      font-size: 20px;
+  }
+
+  .footerFrsCol p {
+      width: 70%;
+      font-size: 14px;
+  }
+
+  .ulQuick {
+      font-size: 14px;
+      line-height: 26px;
+  }
+
+  .ulContact {
+      font-size: 14px;
+      line-height: 35px;
+  }
+
+  .instantCarousel h6, .vegCarousel h6, .nonvegCarousel h6, .beverageCarousel h6 {
+      font-size: 12px;
+  }
+
+  .instantCarousel img {
+      border: 3px solid #fde7dc;
+  }
+
+  .fasFoodSec .cookTime {
+      font-size: 10px;
+  }
+
+  .aboutSec h2 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      line-height: 40px;
+  }
+
+  .abtChefSec {
+      margin-top: -6px;
+  }
+
+  .abtChefSec h2 {
+      font-size: 30px;
+      margin-top: 80px;
+  }
+
+  .abtChefSec h5 {
+      font-size: 17px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+
+  .aboutSec {
+      padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1401px) and (max-width:1600px) {
+  .notFoundCol h4 {
+      font-size: 30px;
+      margin-top: 180px;
+      margin-bottom: 220px;
+  }
+
+  .instRecBoxSec .card, .srchtRecBoxSec .card, .vegRecBoxSec .card, .nonvegRecBoxSec .card, .beverageRecBoxSec .card {
+      height: 440px;
+  }
+
+  .srchtRecBoxSec .card .card-image .instRecBoxSec .card .card-image, .vegRecBoxSec .card .card-image, .nonvegRecBoxSec .card .card-image, .beverageRecBoxSec .card .card-image {
+      height: 190px;
+  }
+
+  .imgProduct img {
+      left: 150px;
+      width: 300px;
+      top: 160px;
+  }
+
+  .ingBannerSec .divOpa {
+      top: 160px;
+      right: 100px;
+  }
+
+  .ingreBnrToprSec img {
+      height: 480px;
+      overflow: hidden;
+  }
+
+  .ingBannerSec h2 {
+      font-size: 35px;
+  }
+
+  .ingreBotSec .ingredient {
+      font-size: 35px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .ingreBotSec .method {
+      font-size: 35px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .privacySec h2 {
+      font-size: 35px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+  }
+
+  .privacySec h3 {
+      font-size: 20px;
+  }
+
+  .termsSec h2 {
+      font-size: 35px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+  }
+
+  .termsSec h3 {
+      font-size: 20px;
+  }
+
+  .beverageRecBoxSec .time {
+      font-size: 10px;
+  }
+
+  .vegRecBoxSec .time {
+      font-size: 10px;
+  }
+
+  .nonvegRecBoxSec .time {
+      font-size: 10px;
+  }
+
+  .beverageRecBoxSec .fooName {
+      font-size: 18px;
+  }
+
+  .vegRecBoxSec .fooName {
+      font-size: 18px;
+  }
+
+  .nonvegRecBoxSec .fooName {
+      font-size: 18px;
+  }
+
+  .vegRecBoxSec h2 {
+      font-size: 35px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .nonvegRecBoxSec h2 {
+      font-size: 35px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .beverageRecBoxSec h2 {
+      font-size: 35px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .vegRecContSec .divOpa {
+      margin-top: -300px;
+      margin-bottom: 100px;
+      padding: 1px 60px 10px 60px;
+  }
+
+  .vegRecContSec h2 {
+      font-size: 40px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .nonvegRecContSec .divOpa {
+      margin-top: -300px;
+      margin-bottom: 100px;
+      padding: 1px 60px 10px 60px;
+  }
+
+  .nonvegRecContSec h2 {
+      font-size: 40px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .beverageRecContSec .divOpa {
+      margin-top: -300px;
+      margin-bottom: 100px;
+      padding: 1px 60px 10px 60px;
+  }
+
+  .beverageRecContSec h2 {
+      font-size: 40px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .bnrSec {
+      height: 400px;
+  }
+
+  .contactRightCol img {
+      width: 170px;
+      margin-top: 50px;
+  }
+
+  .formMessage {
+      height: 200px !important;
+  }
+
+  .btnSubmit, .btnSubmit:hover, .btnSubmit:focus {
+      height: 43px;
+      font-size: 14px;
+      padding: 0 35px;
+      margin-bottom: 0;
+  }
+
+  .form-control {
+      height: 45px;
+  }
+
+  .contactRightCol h4 {
+      font-size: 30px;
+  }
+
+  .contactSec iframe {
+      border: 4px solid white !important;
+      height: 330px;
+      margin-top: 35px;
+  }
+
+  .qnaSec h2 {
+      font-size: 35px;
+  }
+
+  .contactSec h2 {
+      font-size: 35px;
+  }
+
+  .bigSearch input {
+      height: 50px;
+      font-size: 17px;
+      line-height: 50px;
+      width: 520px;
+      padding-left: 25px;
+  }
+
+  .findRecH1 {
+      font-size: 50px;
+      margin-top: 140px;
+  }
+
+  .instantRecContSec .divOpa {
+      margin-top: -300px;
+      margin-bottom: 100px;
+      padding: 1px 60px 10px 60px;
+  }
+
+  .instantRecContSec h2 {
+      font-size: 40px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .srchtRecBoxSec h2 {
+      font-size: 35px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .srchtRecBoxSec .fooName {
+      font-size: 18px;
+  }
+
+  .srchtRecBoxSec .time {
+      font-size: 10px;
+  }
+
+  .instRecBoxSec h2 {
+      font-size: 35px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .instRecBoxSec .fooName {
+      font-size: 18px;
+  }
+
+  .instRecBoxSec .time {
+      font-size: 10px;
+  }
+
+  .beverageRecContSec .divOpa {
+      margin-top: -400px;
+      margin-bottom: 120px;
+      padding: 1px 60px 20px 60px;
+  }
+
+  .beverageRecContSec .divOpa {
+      margin-top: -400px;
+      margin-bottom: 120px;
+      padding: 1px 60px 20px 60px;
+  }
+
+  .beverageRecContSec .divOpa {
+      margin-top: -400px;
+      margin-bottom: 120px;
+      padding: 1px 60px 20px 60px;
+  }
+
+  .beverageRecContSec .divOpa {
+      margin-top: -300px;
+      margin-bottom: 120px;
+      padding: 1px 60px 20px 60px;
+  }
+
+  .aboutSec {
+      padding-bottom: 0;
+  }
+
+  .aboutSec h2 {
+      font-size: 35px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      line-height: 40px;
+  }
+
+  .abtChefSec {
+      margin-top: -7px;
+  }
+
+  .footer-top h5 {
+      font-size: 22px;
+  }
+
+  .footerFrsCol img {
+      width: 220px;
+  }
+
+  .fasFoodSec .cookTime {
+      font-size: 8px;
+  }
+
+  .fasFoodSec .fooName {
+      font-size: 20px;
+  }
+
+  header nav {
+      padding: 19px 70px 0px 60px;
+      height: 70px;
+  }
+
+  .bannerCarousel {
+      height: 450px !important;
+  }
+
+  .foodTabSec h2 {
+      font-size: 35px;
+  }
+
+  .fasFoodSec h2 {
+      font-size: 35px;
+  }
+
+  .chefSlidSec h2 {
+      font-size: 35px;
+  }
+
+  header nav img {
+      width: 230px;
+      margin-top: -10px;
+  }
+
+  .fasFoodSec .card {
+      height: 340px;
+  }
+
+  .testCarousel h6 {
+      font-size: 20px;
+  }
+
+  html, body {
+      font-size: 15px;
+  }
+
+  .footer-top {
+      padding: 0 130px;
+  }
+
+  .footer-copyright {
+      padding: 0 130px !important;
+  }
+
+  .btnSearch, .btnSearch:hover, .btnSearch:focus, .btnSearch:visited, .btnSearch:active {
+      margin-left: -50px;
+  }
+
+  .btnMblSearch, .btnMblSearch:hover, .btnMblSearch:focus, .btnMblSearch:visited, .btnMblSearch:active {
+      margin-left: -50px;
+  }
+
+  .searchForm input {
+      margin-right: -10px;
+  }
+
+  .searchMobile input {
+      margin-right: -10px;
+  }
+}
+
+@media (min-width: 1601px) and (max-width:1800px) {
+  .srchtRecBoxSec .card, .instRecBoxSec .card, .vegRecBoxSec .card, .nonvegRecBoxSec .card, .beverageRecBoxSec .card {
+      height: 480px;
+  }
+
+  .srchtRecBoxSec .card .card-image, .instRecBoxSec .card .card-image, .vegRecBoxSec .card .card-image, .nonvegRecBoxSec .card .card-image, .beverageRecBoxSec .card .card-image {
+      height: 240px;
+  }
+
+  .ingBannerSec .divOpa {
+      padding: 10px 50px 10px 50px;
+  }
+
+  .imgProduct img {
+      height: 350px;
+      top: 110px;
+  }
+
+  .ingreBnrToprSec img {
+      height: 440px;
+  }
+
+  .qnaSec h2 {
+      font-size: 40px;
+  }
+
+  .contactSec h2 {
+      font-size: 40px;
+  }
+
+  .bigSearch input {
+      height: 50px;
+      font-size: 18px;
+      line-height: 60px;
+      width: 540px;
+      padding-left: 30px;
+  }
+
+  .findRecH1 {
+      font-size: 55px;
+  }
+
+  .instantRecContSec h2 {
+      font-size: 45px;
+      margin-top: 40px;
+      margin-bottom: 25px;
+  }
+
+  .srchtRecBoxSec h2 {
+      font-size: 40px;
+      margin-top: 30px;
+      margin-bottom: 25px;
+  }
+
+  .instRecBoxSec h2 {
+      font-size: 40px;
+      margin-top: 30px;
+      margin-bottom: 25px;
+  }
+
+  .instantRecContSec .divOpa {
+      margin-top: -350px;
+      margin-bottom: 110px;
+      padding: 1px 70px 20px 70px;
+  }
+
+  html, body {
+      font-size: 16px;
+  }
+
+  .abtChefSec h2 {
+      font-size: 40px;
+      margin-top: 80px;
+  }
+
+  .abtChefSec {
+      margin-top: -7px;
+  }
+
+  .aboutSec h2 {
+      font-size: 40px;
+      margin-top: 40px;
+  }
+
+  .bannerCarousel {
+      height: 580px !important;
+  }
+
+  .foodTabSec h2 {
+      font-size: 40px;
+  }
+
+  .fasFoodSec h2 {
+      font-size: 40px;
+  }
+
+  .chefSlidSec h2 {
+      font-size: 40px;
+  }
+
+  .fasFoodSec .cookTime {
+      font-size: 8px;
+      letter-spacing: 0;
+  }
+
+  .footer-top p {
+      font-size: 14px;
+  }
+
+  .ulQuick {
+      font-size: 14px;
+      line-height: 25px;
+  }
+
+  .ulContact {
+      font-size: 14px;
+      line-height: 30px;
+  }
+
+  .footer-copyright {
+      font-size: 12px;
+  }
+
+  .page-footer .footer-copyright {
+      min-height: 42px;
+  }
+
+  .footerFrsCol img {
+      width: 270px;
+  }
+
+  .fasFoodSec .card {
+      height: 390px;
+  }
+}
